@@ -2,7 +2,8 @@
   "marketing_stripe": {
     "text": "Bem-vindo à Desicon",
     "link": "",
-    "color": "#ffffff"
+    "color": "#ffffff",
+    "background": "#ff8b00"
   },
   "contacts_stripe": {
     "pages": [
