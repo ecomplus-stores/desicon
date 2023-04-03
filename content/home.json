@@ -18,6 +18,12 @@
           "end": "",
           "img": "/img/uploads/banner-header-desktop-ferramentas-1200x300px.jpg",
           "mobile_img": "/img/uploads/banner-header-desktop-ferramentas-1200x300px.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-header-desktop-produto-destaque-1200x300px-1.jpg",
+          "mobile_img": "/img/uploads/banner-header-desktop-produto-destaque-1200x300px-1.jpg"
         }
       ]
     },
