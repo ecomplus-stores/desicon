@@ -54,11 +54,6 @@
       "autoplay": 0
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": false,
-      "sort": "lowest_price"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -72,13 +67,6 @@
       "enabled": false
     },
     {
-      "type": "brands-carousel",
-      "limit": 24,
-      "offset": 0,
-      "sort": null,
-      "autoplay": 10000
-    },
-    {
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2023-04-13T20:25:09.913Z",
@@ -87,7 +75,14 @@
         "64270e9e4bd2e929c1bb02ec",
         "642727894bd2e929c1bb32e1"
       ],
-      "notes": "texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste texto notas teste "
+      "notes": "esse é um texto de oferta teste"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": null,
+      "autoplay": 10000
     }
   ]
 }
