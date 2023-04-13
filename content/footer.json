@@ -1,7 +1,7 @@
 {
   "description": {
-    "title": "",
-    "text": ""
+    "title": "teste titulo footer opcional",
+    "text": "teste texto footer opcional"
   },
   "links_1": {
     "list_pages": true,
@@ -10,7 +10,7 @@
   },
   "links_2": {
     "list_categories": true,
-    "title": "Categorias",
+    "title": "Departamentos",
     "list": []
   },
   "contacts": {
