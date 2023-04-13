@@ -55,8 +55,8 @@
     },
     {
       "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "news"
+      "load_more": false,
+      "sort": "lowest_price"
     },
     {
       "type": "collection-shelf",
@@ -69,7 +69,7 @@
     },
     {
       "type": "blog",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "brands-carousel",
