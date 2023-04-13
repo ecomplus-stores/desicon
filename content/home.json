@@ -51,7 +51,12 @@
       "sort": "offers",
       "title": "A qualidade que você merece!",
       "headless": true,
-      "autoplay": 1000
+      "autoplay": 0
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "news"
     },
     {
       "type": "collection-shelf",
@@ -60,13 +65,18 @@
       "page": 1,
       "sort": "sales",
       "title": "Mais Vendidos",
-      "autoplay": 3000
+      "autoplay": 0
+    },
+    {
+      "type": "blog",
+      "enabled": true
     },
     {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
-      "sort": null
+      "sort": null,
+      "autoplay": 10000
     }
   ]
 }
