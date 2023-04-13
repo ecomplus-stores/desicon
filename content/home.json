@@ -54,9 +54,19 @@
       "autoplay": 1000
     },
     {
-      "type": "page-title",
-      "title": "",
-      "description": ""
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "sales",
+      "title": "Mais Vendidos",
+      "autoplay": 3000
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": null
     }
   ]
 }
