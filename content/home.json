@@ -45,10 +45,13 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
-      "sort": "slug"
+      "sort": "offers",
+      "title": "A qualidade que você merece!",
+      "headless": true,
+      "autoplay": 1000
     },
     {
       "type": "page-title",
