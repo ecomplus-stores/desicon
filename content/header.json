@@ -1,17 +1,12 @@
 {
   "marketing_stripe": {
-    "text": "Bem-vindo à Desicon",
+    "text": "",
     "link": "",
-    "color": "#ffffff",
-    "background": "#00a1eb"
+    "color": "",
+    "background": ""
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      }
-    ],
+    "pages": [],
     "phone_wpp": true,
     "socials": true
   },
@@ -23,5 +18,6 @@
   "desktop_megamenu": false,
   "search_input": true,
   "alphabetical_order_submenu": false,
-  "full_width_submenu": false
+  "full_width_submenu": false,
+  "centralized_logo": false
 }
