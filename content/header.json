@@ -25,5 +25,5 @@
   "search_input": true,
   "alphabetical_order_submenu": false,
   "full_width_submenu": false,
-  "centralized_logo": false
+  "centralized_logo": true
 }
