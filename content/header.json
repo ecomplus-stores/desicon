@@ -16,14 +16,19 @@
       "/casa-e-jardim?Casa e Jardim",
       "/gold?Gold",
       "/tekbond?TekBond",
-      "/buchas-parafusos-e-rebites-de-repuxo?Ferragens para Fixação"
+      "/buchas-parafusos-e-rebites-de-repuxo?Ferragens para Fixação",
+      "/perx?PERX",
+      "/dorma?Dorma",
+      "/western?Western",
+      "/italy-line?Italy Line",
+      "/loxeal?Loxeal"
     ],
     "random": 6,
     "full_width": true
   },
-  "desktop_megamenu": true,
+  "desktop_megamenu": false,
   "search_input": true,
   "alphabetical_order_submenu": false,
   "full_width_submenu": false,
-  "centralized_logo": true
+  "centralized_logo": false
 }
