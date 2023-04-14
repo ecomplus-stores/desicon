@@ -64,18 +64,7 @@
     },
     {
       "type": "blog",
-      "enabled": false
-    },
-    {
-      "type": "offers-timer",
-      "max_hours": 24,
-      "start": "2023-04-13T20:25:09.913Z",
-      "end": "2023-04-13T20:24:57.445Z",
-      "offers": [
-        "64270e9e4bd2e929c1bb02ec",
-        "642727894bd2e929c1bb32e1"
-      ],
-      "notes": "esse é um texto de oferta teste"
+      "enabled": true
     },
     {
       "type": "brands-carousel",
