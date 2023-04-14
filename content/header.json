@@ -11,7 +11,13 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/acessorios-para-ferramentas?Acessórios Para Móveis",
+      "/casa-e-jardim?Casa e Jardim",
+      "/gold?Gold",
+      "/tekbond?TekBond",
+      "/buchas-parafusos-e-rebites-de-repuxo?Ferragens para Fixação"
+    ],
     "random": 6,
     "full_width": false
   },
