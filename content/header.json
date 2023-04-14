@@ -21,9 +21,12 @@
       "/dorma?Dorma",
       "/western?Western",
       "/italy-line?Italy Line",
-      "/loxeal?Loxeal"
+      "/loxeal?Loxeal",
+      "/criativa_puxadores?Criativa Puxadores",
+      "/criativa_puxadores?Criativa Puxadores",
+      "/dzainer-conteudo-forma?D'zainer"
     ],
-    "random": 6,
+    "random": 12,
     "full_width": true
   },
   "desktop_megamenu": false,
