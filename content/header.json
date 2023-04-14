@@ -20,10 +20,9 @@
       "/perx?PERX",
       "/dorma?Dorma",
       "/western?Western",
-      "/italy-line?Italy Line",
+      "/teste-colecao-menu?teste-colecao-menu",
       "/vonder?Vonder",
-      "/fortezza?Fortezza",
-      "/beltools?Beltools"
+      "/fortezza?Fortezza"
     ],
     "random": 12,
     "full_width": true
