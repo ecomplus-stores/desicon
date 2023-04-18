@@ -11,12 +11,7 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [
-      "/menu-teste?menu-teste",
-      "/casa-e-jardim?Casa e Jardim",
-      "/buchas-parafusos-e-rebites-de-repuxo?Ferragens para Fixação",
-      "/teste-colecao-menu?teste-colecao-menu"
-    ],
+    "featured": [],
     "random": 10,
     "full_width": true
   },
