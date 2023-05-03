@@ -132,7 +132,7 @@
                 </slot>
               </p>
               <p class="atacado" v-if="atacadoValues && atacadoValues.value">
-                Compre a partir de <b>{{ atacado.quantity }}</b> unidades e ganhe <b>{{(100 - ((((fixedPrice * atacado.quantity) - atacado.value) / (fixedPrice * atacado.quantity)) * 100)).toFixed(2) }}%</b>. Cada unidade é vendida por <b> R$ {{((((fixedPrice * atacado.quantity) - atacado.value) / (fixedPrice * atacado.quantity)) * fixedPrice).toFixed(2) }}</b>
+                Compre a partir de <b>{{ atacado.quantity }}</b> unidades e ganhe <b>{{(100 - ((((fixedPrice * atacado.quantity) - atacado.value) / (fixedPrice * atacado.quantity)) * 100)).toFixed(2) }}%</b> de desconto. Cada unidade é vendida por <b> R$ {{((((fixedPrice * atacado.quantity) - atacado.value) / (fixedPrice * atacado.quantity)) * fixedPrice).toFixed(2) }}</b>
               </p>
             </slot>
 
