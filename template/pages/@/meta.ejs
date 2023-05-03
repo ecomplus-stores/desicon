@@ -76,7 +76,7 @@ if (pathname) {
 <% if (url) { %>
   <link rel="canonical" href="<%= url %>">
 <% } %>
-<% if (resource === 'products') {
+<% if (resource === 'products' && _.state && _.state.keywords) {
   let metaKeywords = ''
   let separate = ','
   const keywords = _.state.keywords
