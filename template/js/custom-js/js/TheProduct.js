@@ -288,6 +288,22 @@ import {
   
       isKit () {
         return this.body.kit_composition && this.body.kit_composition.length
+      },
+
+      getHtmlMetafield () {
+        if (this.body.metafields) {
+          const metafields = this.body.metafields.filter(metafield => metafield.field === 'html')
+          if (metafields && metafields.length) {
+            const parser = new DOMParser();
+            let metaHtml = ''
+            metafields.forEach((html) => {
+              metaHtml += html.value
+            })
+            return parser.parseFromString(metaHtml, "text/html").documentElement.textContent;
+          }
+          return null
+        }
+        return null
       }
     },
   
