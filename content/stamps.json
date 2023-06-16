@@ -35,6 +35,21 @@
         "3705004"
       ],
       "id": "Profissional"
+    },
+    {
+      "id": "Bom",
+      "img": "/img/uploads/selo-qualidade-bom-500x500px.png",
+      "skus": [
+        "410104040"
+      ]
+    },
+    {
+      "id": "Supremo",
+      "img": "/img/uploads/selo-qualidade-supremo-500x500px.png",
+      "skus": [
+        "10000300",
+        "410300030"
+      ]
     }
   ]
 }
