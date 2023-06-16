@@ -1,28 +1,6 @@
 {
   "stamps_list": [
     {
-      "img": "/img/uploads/selo-qualidade-bom-500x500px.png",
-      "id": "Bom",
-      "skus": [
-        "420000050"
-      ]
-    },
-    {
-      "id": "Excelente",
-      "img": "/img/uploads/selo-qualidade-excelente-500x500px.png",
-      "skus": [
-        "410104040"
-      ]
-    },
-    {
-      "id": "Supremo",
-      "img": "/img/uploads/selo-qualidade-supremo-500x500px.png",
-      "skus": [
-        "10000300",
-        "410300030"
-      ]
-    },
-    {
       "img": "/img/uploads/selo-qualidade-profissional-1080x1080px-1-.png",
       "skus": [
         "371707",
