@@ -1,6 +1,34 @@
 {
   "stamps_list": [
     {
+      "img": "/img/uploads/selo-desconto-pix-500x500px.png",
+      "id": "Desconto de 3% PIX ou BOLETO"
+    },
+    {
+      "img": "/img/uploads/selo-desconto-especial-500x500px.png",
+      "id": "Desconto de 10% PIX ou BOLETO"
+    },
+    {
+      "id": "Menor Preço",
+      "img": "/img/uploads/selo-qualidade-menor-preco-1080x1080px.png"
+    },
+    {
+      "img": "/img/uploads/selo-qualidade-bom-500x500px.png",
+      "id": "Bom"
+    },
+    {
+      "id": "Excelente",
+      "img": "/img/uploads/selo-qualidade-excelente-500x500px.png"
+    },
+    {
+      "id": "Supremo",
+      "img": "/img/uploads/selo-qualidade-supremo-500x500px.png"
+    },
+    {
+      "id": "Hobbies",
+      "img": "/img/uploads/selo-qualidade-hobbies-1080x1080px.png"
+    },
+    {
       "img": "/img/uploads/selo-qualidade-profissional-1080x1080px-1-.png",
       "skus": [
         "371707",
@@ -33,7 +61,12 @@
         "3720110",
         "371700",
         "3705004"
-      ]
+      ],
+      "id": "Profissional"
+    },
+    {
+      "img": "/img/uploads/selo-qualidade-industrial-1080x1080px.png",
+      "id": "Industrial"
     }
   ]
 }
