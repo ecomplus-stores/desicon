@@ -111,6 +111,13 @@
         "100018"
       ],
       "img": "/img/uploads/selo-qualidade-excelente-500x500px.png"
+    },
+    {
+      "id": "Menor Preço",
+      "skus": [
+        "100028"
+      ],
+      "img": "/img/uploads/selo-qualidade-menor-preco-1080x1080px.png"
     }
   ]
 }
