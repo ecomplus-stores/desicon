@@ -117,9 +117,7 @@
     },
     {
       "id": "Menor Preço",
-      "skus": [
-        "100028"
-      ],
+      "skus": null,
       "img": "/img/uploads/selo-qualidade-menor-preco-1080x1080px.png"
     }
   ]
