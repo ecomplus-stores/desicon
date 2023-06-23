@@ -64,7 +64,7 @@
     },
     {
       "type": "blog",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "brands-carousel",
