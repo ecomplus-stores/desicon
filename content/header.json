@@ -6,12 +6,21 @@
     "background": ""
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Teste&Teste"
+      }
+    ],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/rodizios-rodas-e-rodinhas?Rodízios, Rodas e Rodinhas",
+      "/acessorios-para-moveis?Acessórios para Móveis",
+      "/prateleiras-de-vidros-temperados?Prateleiras",
+      "/silicones-colas-quimicos?Químicos em Geral"
+    ],
     "random": 10,
     "full_width": true
   },
