@@ -131,6 +131,16 @@
         "410931"
       ],
       "img": "/img/uploads/selo-qualidade-excelente-500x500px.png"
+    },
+    {
+      "id": "Menor Preço",
+      "img": "/img/uploads/selo-qualidade-menor-preco-1080x1080px.png",
+      "skus": [
+        "2600010",
+        "260008",
+        "260006",
+        "260004"
+      ]
     }
   ]
 }
