@@ -1,0 +1,13 @@
+{
+  "date": "2023-06-27T14:31:28.222Z",
+  "title": "Modelo Blog H1",
+  "thumbnail": "/img/uploads/capa-blog-prateleiras-de-vidro-690x690px.png",
+  "description": "",
+  "body": "## Titulo H2\n\nEste é um parágrafo de exemplo que contém texto aleatório. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at interdum odio. Curabitur et sollicitudin velit. Integer convallis justo sed enim tincidunt, non dapibus felis dignissim.\n\nUt viverra felis a sapien posuere, at fermentum sem interdum. Vestibulum ut mi quis ipsum interdum commodo nec id ante. Praesent lacinia dapibus ex non efficitur. Morbi vel velit euismod, ultrices metus ut, vestibulum arcu. Etiam efficitur sapien et mi pellentesque, eget lobortis urna lobortis.\n\n### T﻿itulo H3\n\nEste é um parágrafo de exemplo que contém texto aleatório. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at interdum odio. Curabitur et sollicitudin velit. Integer convallis justo sed enim tincidunt, non dapibus felis dignissim.\n\nUt viverra felis a sapien posuere, at fermentum sem interdum. Vestibulum ut mi quis ipsum interdum commodo nec id ante. Praesent lacinia dapibus ex non efficitur. Morbi vel velit euismod, ultrices metus ut, vestibulum arcu. Etiam efficitur sapien et mi pellentesque, eget lobortis urna lobortis.\n\n![texto alternativo](/img/uploads/capa-blog-reformando-a-casa-690x690px-.png \"refomando a casa\")\n\nEste é um parágrafo de exemplo que contém texto aleatório. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at interdum odio. Curabitur et sollicitudin velit. Integer convallis justo sed enim tincidunt, non dapibus felis dignissim.",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<table>\n  <tr>\n    <th>titulo</th>\n    <th>titulo</th>\n    <th>titulo</th>\n    <th>titulo</th>\n    <th>titulo</th>\n    <th>titulo</th>\n  </tr>\n  <tr>\n    <td>dado</td>\n    <td>dado</td>\n    <td>dado</td>\n    <td>dado</td>\n    <td>dado</td>\n    <td>dado</td>\n  </tr>\n</table>"
+    }
+  ]
+}
