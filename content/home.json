@@ -55,6 +55,10 @@
       "sort": "offers"
     },
     {
+      "type": "custom-content",
+      "markdown": "<h4 class=\"products-carousel__title\"><span>Compre por Marcas</span></h4>"
+    },
+    {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
