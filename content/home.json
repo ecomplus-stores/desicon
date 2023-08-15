@@ -44,27 +44,15 @@
       "enabled": true
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
+      "autoplay": 0,
       "page": 1,
-      "sort": "offers",
-      "title": "A qualidade que você merece!",
-      "headless": true,
-      "autoplay": 0
-    },
-    {
-      "type": "collection-shelf",
+      "title": "Sucesso da Desicon",
       "shuffle": true,
+      "headless": false,
+      "type": "collection-shelf",
       "limit": 12,
-      "page": 1,
-      "sort": "sales",
-      "title": "Mais Vendidos",
-      "autoplay": 0
-    },
-    {
-      "type": "blog",
-      "enabled": false
+      "collection_id": "6439a5e64bd2e929c1d02cfb:collections:teste-colecao-menu:/teste-colecao-menu",
+      "sort": "offers"
     },
     {
       "type": "brands-carousel",
@@ -72,6 +60,19 @@
       "offset": 0,
       "sort": null,
       "autoplay": 10000
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "highest_price",
+      "title": "Mais Vendidos",
+      "autoplay": 0
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
