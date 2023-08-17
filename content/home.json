@@ -80,7 +80,7 @@
     },
     {
       "type": "custom-html",
-      "html": "   <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\">\n                <a href=\"\">\n                    <img src=\"/img/uploads/capa-blog-prateleiras-de-vidro-690x690px.png\" class=\"card-img-top\"\n                        alt=\"\"></a>\n            </div>\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\">\n                <a href=\"\">\n                    <img src=\"/img/uploads/capa-blog-prateleiras-de-vidro-690x690px.png\" class=\"card-img-top\"\n                        alt=\"\"></a>\n            </div>\n        </div>\n    </div>"
+      "html": "   <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\">\n                <a href=\"\">\n                    <img src=\"/img/uploads/bannerteste.jpeg\" class=\"card-img-top\"\n                        alt=\"\"></a>\n            </div>\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\">\n                <a href=\"\">\n                    <img src=\"/img/uploads/bannerteste.jpeg\" class=\"card-img-top\"\n                        alt=\"\"></a>\n            </div>\n        </div>\n    </div>"
     }
   ]
 }
