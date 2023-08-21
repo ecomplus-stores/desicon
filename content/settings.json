@@ -16,11 +16,11 @@
   "mini_logo": "",
   "font_family": "_",
   "favicon": "/img/uploads/desicon-favicon.png",
-  "icons_font": "_",
+  "icons_font": "font-awesome",
   "country_code": "BR",
   "secondary_color": "#00a1eb",
   "icon": "/img/icon.png",
   "store_id": 51372,
-  "description": "desicon",
+  "description": "Desicon",
   "large_icon": "/img/large-icon.png"
 }
