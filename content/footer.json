@@ -22,8 +22,12 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection"
+      "src": "/img/uploads/ssl-color.png",
+      "alt": "Secure Connection"
+    },
+    {
+      "src": "/img/uploads/googlesafe-color.png",
+      "alt": "Safe Browsing Google"
     }
   ],
   "payment_methods": {
