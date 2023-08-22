@@ -28,6 +28,10 @@
     {
       "src": "/img/uploads/googlesafe-color.png",
       "alt": "Safe Browsing Google"
+    },
+    {
+      "src": "/img/uploads/mercadolivre_reputacao.jpg",
+      "alt": "Mercado Livre Reputação"
     }
   ],
   "payment_methods": {
