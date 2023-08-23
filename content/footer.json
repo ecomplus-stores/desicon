@@ -27,21 +27,16 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-color.png",
-      "alt": "Secure Connection"
+      "src": "/img/uploads/ssl-securety.png"
     },
     {
-      "src": "/img/uploads/googlesafe-color.png",
-      "alt": "Safe Browsing Google"
+      "src": "/img/uploads/ssl-securety.png"
     },
     {
-      "src": "/img/uploads/mercadolivre_reputacao.jpg",
-      "alt": "Mercado Livre Reputação",
-      "link": "https://www.mercadolivre.com.br/perfil/DESICON.COM.BR"
+      "src": "/img/uploads/ssl-securety.png"
     },
     {
-      "src": "/img/uploads/mercadolivre_reputacao.jpg",
-      "alt": "teste"
+      "src": "/img/uploads/ssl-securety.png"
     }
   ],
   "payment_methods": {
