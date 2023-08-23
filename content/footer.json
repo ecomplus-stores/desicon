@@ -33,7 +33,7 @@
     {
       "src": "/img/uploads/safe-browsing-google.png",
       "alt": "safe browsing",
-      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.desicon.com.br"
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.desicon.com.br%2F"
     },
     {
       "src": "/img/uploads/avaliacao-mercado-livre.png",
