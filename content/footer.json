@@ -27,16 +27,22 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-securety.png"
+      "src": "/img/uploads/ssl-securety.png",
+      "alt": "secure connection "
     },
     {
-      "src": "/img/uploads/ssl-securety.png"
+      "src": "/img/uploads/safe-browsing-google.png",
+      "alt": "safe browsing"
     },
     {
-      "src": "/img/uploads/ssl-securety.png"
+      "src": "/img/uploads/avaliacao-mercado-livre.png",
+      "alt": "avaliação mercado livre",
+      "link": "https://www.mercadolivre.com.br/perfil/DESICON.COM.BR"
     },
     {
-      "src": "/img/uploads/ssl-securety.png"
+      "src": "/img/uploads/ebit-em-avaliacao.png",
+      "alt": "em avaliação ebit",
+      "link": "https://www.ebit.com.br/desicon"
     }
   ],
   "payment_methods": {
