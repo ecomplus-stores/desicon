@@ -103,8 +103,7 @@ export default (self, term) => {
       type: 'best_fields',
       fields: [
         'name',
-        'keywords',
-        'skus'
+        'keywords'
       ]
     }
   }, 'must')
