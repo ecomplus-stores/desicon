@@ -100,10 +100,11 @@ export default (self, term) => {
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: finalTerm.length > 4 ? 'best_fields' : 'phrase_prefix',
+      type: 'best_fields',
       fields: [
         'name',
-        'keywords'
+        'keywords',
+        'skus'
       ]
     }
   }, 'must')
