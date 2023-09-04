@@ -100,7 +100,7 @@ export default (self, term) => {
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: 'best_fields',
+      type: 'phrase',
       fields: [
         'name',
         'keywords'
