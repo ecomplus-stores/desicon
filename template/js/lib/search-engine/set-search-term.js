@@ -35,11 +35,12 @@ export default (self, term) => {
           return 'saco de confeitar'
       }
     }
-    return newArr.join(' ')*/
+    */
+    return newArr.join(' ')
   }
   // match name and/or keyword with term
   // https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html
-  const listOfTerms = ['silicone', 'prateleiras']
+  const listOfTerms = ['silicone', 'prateleira']
   if (!listOfTerms.includes(term)) {
     const sort = query.sort.slice()
     const relevanceSortIndex = sort.findIndex(s => s.ad_relevance)
