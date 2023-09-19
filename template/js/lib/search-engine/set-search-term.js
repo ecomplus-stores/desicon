@@ -8,66 +8,17 @@ export default (self, term) => {
       return arr[0].replace(/(es)|s$/g, '')
     }
   } */
-  /* const fromTo = (arr) => {
+  const fromTo = (arr) => {
     const newArr = arr.map(word => {
         const lower = word.toLowerCase()
         switch (lower) {
-          case 'cortador':
-          case 'cortadore':
-            return 'corta'
-          case 'formas':
-            return 'forma'
-          case 'bicos':
-            return 'bico'
-          case 'açucar':
-            return 'açúcar'
-          case 'chocolates':
-            return 'chocol'
-          case 'termometro':
-            return 'termômetro'
-          case 'espatula':
-            return 'espátula'
-          case 'pascoa':
-            return 'páscoa'
-          case 'colorbits':
-            return 'bits'
-          case 'cakeboard':
-            return 'base laminada'
-          case 'baneton':
-          case 'benetton':
-          case 'bannetton':
-            return 'Banneton'
-          case 'molde':
-          case 'moldes':
-            return 'forma'
-          case 'glitter':
-            return 'gliter'
-          case 'granule':
-            return 'granulado'
-          case 'macarron':
-            return 'macaron'
-          case 'carlex':
-            return 'desmoldante'
-          case 'dabella':
-            return 'saborizante'
-          case 'shell':
-            return 'concha'
-          case 'estencil':
-          case 'Estêncil':
-            return 'stencil'
-          case 'removivel':
-          case 'removível':
-            return 'falso'
-          case 'dourada':
-            return 'ouro'
-          case 'estilete':
-            return 'bisturi'
-          case 'zester':
-            return 'ralador'
+          case 'prateleiras':
+            return 'prateleira'
           default:
             return lower
         }
     })
+    /*
     if (arr.length === 2) {
       switch(arr[0] + ' ' + arr[1]) {
         case 'cake board':
@@ -84,8 +35,8 @@ export default (self, term) => {
           return 'saco de confeitar'
       }
     }
-    return newArr.join(' ')
-  } */
+    return newArr.join(' ')*/
+  }
   // match name and/or keyword with term
   // https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html
   const listOfTerms = ['silicone', 'prateleiras']
