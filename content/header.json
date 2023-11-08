@@ -15,9 +15,10 @@
       "/rodizios-rodas-e-rodinhas?Rodízios, Rodas e Rodinhas",
       "/acessorios-para-moveis?Acessórios para Móveis",
       "/prateleiras?Prateleiras",
-      "/silicones-colas-quimicos?Químicos em Geral"
+      "/silicones-colas-quimicos?Químicos em Geral",
+      "/black-decker?Black&Decker"
     ],
-    "random": 10,
+    "random": 5,
     "full_width": true
   },
   "desktop_megamenu": true,
