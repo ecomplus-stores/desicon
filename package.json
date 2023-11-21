@@ -7,7 +7,7 @@
   ],
   "engines": {
     "node": "16",
-    "npm": "^8.19.0"
+    "npm": "^8.19.4"
   },
   "private": true,
   "name": "@ecomplus/storefront",
@@ -41,13 +41,11 @@
     "url": "git+https://github.com/ecomplus/storefront-starter.git"
   },
   "dependencies": {
-    "@ecomplus/storefront-template": "^2.0.0-beta.241",
-    "@netlify/zip-it-and-ship-it": "^5.13.5",
-    "firebase-tools": "^11.30.0",
-    "lottie-web": "^5.12.2"
+    "@ecomplus/storefront-template": "^2.0.0-beta.250",
+    "@netlify/zip-it-and-ship-it": "^8.10.0",
+    "firebase-tools": "^11.30.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.3",
-    "standard": "^17.1.0"
+    "browser-sync": "^2.29.3"
   }
 }
