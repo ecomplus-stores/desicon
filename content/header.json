@@ -1,15 +1,4 @@
 {
-  "marketing_stripe": {
-    "text": "",
-    "link": "",
-    "color": "",
-    "background": ""
-  },
-  "contacts_stripe": {
-    "pages": [],
-    "phone_wpp": true,
-    "socials": true
-  },
   "categories_list": {
     "featured": [
       "/rodizios-rodas-e-rodinhas?Rodízios, Rodas e Rodinhas",
@@ -21,9 +10,21 @@
     "random": 0,
     "full_width": true
   },
-  "desktop_megamenu": true,
-  "search_input": true,
+  "menu_all_departments": true,
+  "centralized_logo": false,
+  "marketing_stripe": {
+    "text": "",
+    "link": "",
+    "color": "",
+    "background": ""
+  },
   "alphabetical_order_submenu": false,
+  "search_input": true,
+  "desktop_megamenu": true,
   "full_width_submenu": true,
-  "centralized_logo": false
+  "contacts_stripe": {
+    "pages": [],
+    "phone_wpp": true,
+    "socials": true
+  }
 }
