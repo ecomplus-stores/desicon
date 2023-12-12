@@ -1766,42 +1766,6 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/chuveiros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/desiconevoce</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/suporte-mao-francesa-dobravel-retratil-50cm</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -11558,6 +11522,42 @@
     </url>
   
     <url>
+      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/chuveiros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/desiconevoce</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://desicon.netlify.app/ferramentas-worx</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -11978,13 +11978,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/acessibilidade-e-ergonomia-como-incluir-em-nosso-dia-a-dia</loc>
+      <loc>https://desicon.netlify.app/posts/caixa-e-maletas-organizadoras-vonder-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/caixa-e-maletas-organizadoras-vonder-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/acessibilidade-e-ergonomia-como-incluir-em-nosso-dia-a-dia</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12092,13 +12092,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal</loc>
+      <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
+      <loc>https://desicon.netlify.app/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12122,15 +12122,15 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/blog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
