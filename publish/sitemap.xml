@@ -9182,12 +9182,6 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/furadeira-impacto-parafusadeira-bateria-12v-110v-cat-dx15</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/corredica-telescopica-55cm</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -9195,12 +9189,6 @@
   
     <url>
       <loc>https://desicon.netlify.app/corredica-telescopica-50cm-h45</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/parafusadeira-furadeira-eletrica-a-bateria-12v-dx14-cat-caterpillar</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -9915,12 +9903,6 @@
   
     <url>
       <loc>https://desicon.netlify.app/mola-de-piso-gold-g3100-hidraulica-porta-vidro-temperado</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/puxador-inox-38x1000x800mm-tipo-h-redondo-polido</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -11954,13 +11936,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/pages/faq</loc>
+      <loc>https://desicon.netlify.app/pages/politica-de-qualidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/pages/politica-de-qualidade</loc>
+      <loc>https://desicon.netlify.app/pages/faq</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12038,13 +12020,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
+      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
+      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
