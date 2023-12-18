@@ -11948,7 +11948,7 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/pages/termos</loc>
+      <loc>https://desicon.netlify.app/pages/privacidade</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -11960,7 +11960,7 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/pages/privacidade</loc>
+      <loc>https://desicon.netlify.app/pages/termos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -11990,13 +11990,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/conheca-um-pouco-sobre-a-vonder</loc>
+      <loc>https://desicon.netlify.app/posts/como-reformar-moveis-antigos-e-usados</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/como-reformar-moveis-antigos-e-usados</loc>
+      <loc>https://desicon.netlify.app/posts/conheca-um-pouco-sobre-a-vonder</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12020,13 +12020,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
+      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
+      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12062,13 +12062,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/prateleiras-falando-de-suportes</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/prateleiras-falando-de-suportes</loc>
+      <loc>https://desicon.netlify.app/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12092,13 +12092,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
+      <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
+      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12134,13 +12134,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/app/index</loc>
+      <loc>https://desicon.netlify.app/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/admin/index</loc>
+      <loc>https://desicon.netlify.app/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
