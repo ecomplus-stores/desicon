@@ -12056,25 +12056,25 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/prateleiras-falando-de-suportes</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/posts/polimento-automotivo-boinas-e-politriz-para-que-servem</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/prateleiras-falando-de-suportes</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
       <loc>https://desicon.netlify.app/posts/principais-ferramentas-para-casa</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
