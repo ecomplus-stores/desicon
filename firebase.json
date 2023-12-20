@@ -1,6 +1,226 @@
 {
   "hosting": {
     "redirects": [
+      {
+        "source": "/rodizio-giratorio-em-gel-silicone-transparente-35mm-sem-trava-1",
+        "destination": "/rodizio-giratrio-em-gel-silicone-transparente-35mm-sem-trava",
+        "type": 301
+        },
+        {
+        "source": "/rodizio-giratorio-em-gel-silicone-transparente-35mm-com-trava",
+        "destination": "/rodizio-giratrio-em-gel-silicone-transparente-35mm-com-trava",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-50cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-50cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-40cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-40cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-25cm-para-gaveta-ligth-25kg-h35-hardt",
+        "destination": "/corredica-telescopica-25cm",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-45cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-45cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/rodizio-50mm-sem-trava-pvc-laranja",
+        "destination": "/rodizio-sem-trava-laranja-50mm",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-30cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-30cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-60cm-para-gaveta-ligth-25kg-h35-hardt",
+        "destination": "/corredica-telescopica-60cm",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-25cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-25cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-50-cm-para-gaveta-ligth-25kg-h35-hardt",
+        "destination": "/corredica-telescopica-50cm",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-40cm-para-gaveta-ligth-25kg-h35-hardt",
+        "destination": "/corredica-telescopica-40cm",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-60cm-para-gaveta-moveis-37kg-h45-hardt",
+        "destination": "/corredica-telescopica-60cm-h45",
+        "type": 301
+        },
+        {
+        "source": "/corredica-telescopica-45cm-para-gaveta-ligth-25kg-h35-hardt",
+        "destination": "/corredica-telescopica-45cm",
+        "type": 301
+        },
+        {
+        "source": "/suporte-para-prateleira-mao-francesa",
+        "destination": "/posts/suporte-para-prateleira-mao-francesa",
+        "type": 301
+        },
+        {
+        "source": "/compra-online-segura",
+        "destination": "/posts/saiba-como-fazer-suas-compras-online-de-forma-segura",
+        "type": 301
+        },
+        {
+        "source": "/reformando-moveis",
+        "destination": "/posts/como-reformar-moveis-antigos-e-usados",
+        "type": 301
+        },
+        {
+        "source": "/subindo-de-nivel-com-as-ferramentas-irwin",
+        "destination": "/posts/subindo-de-nivel-com-as-ferramentas-irwin",
+        "type": 301
+        },
+        {
+        "source": "/polimento-automotivo-boinas-e-politriz-para-que-servem",
+        "destination": "/posts/polimento-automotivo-boinas-e-politriz-para-que-servem",
+        "type": 301
+        },
+        {
+        "source": "/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
+        "destination": "/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
+        "type": 301
+        },
+        {
+        "source": "/como-contratar-um-bom-pedreiro",
+        "destination": "/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro",
+        "type": 301
+        },
+        {
+        "source": "/disco-de-corte-dicas-de-uso-e-suas-diferenciacoes",
+        "destination": "/posts/discos-de-corte-dicas-de-uso-e-modelos",
+        "type": 301
+        },
+        {
+        "source": "/ferragens-qual-o-material-ideal",
+        "destination": "/posts/ferragens-qual-o-material-ideal",
+        "type": 301
+        },
+        {
+        "source": "/prateleiras-falando-de-suportes",
+        "destination": "/posts/prateleiras-falando-de-suportes",
+        "type": 301
+        },
+        {
+        "source": "/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
+        "destination": "/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
+        "type": 301
+        },
+        {
+        "source": "/repaginando-a-casa-acessorios-para-banheiro",
+        "destination": "/posts/repaginando-a-casa-acessorios-para-banheiro",
+        "type": 301
+        },
+        {
+        "source": "/principais-ferramentas-para-casa",
+        "destination": "/posts/principais-ferramentas-para-casa",
+        "type": 301
+        },
+        {
+        "source": "/acessibilidade-ergonomia",
+        "destination": "/posts/acessibilidade-e-ergonomia-como-incluir-em-nosso-dia-a-dia",
+        "type": 301
+        },
+        {
+        "source": "/dicas-de-instalacao-mola-aerea",
+        "destination": "/posts/dicas-de-instalacao-mola-aerea",
+        "type": 301
+        },
+        {
+        "source": "/mao-francesa-inspiracoes-para-o-seu-diy",
+        "destination": "/posts/mao-francesa-inspiracoes-para-o-seu-diy",
+        "type": 301
+        },
+        {
+        "source": "/rodinhas-e-rodizios-para-moveis",
+        "destination": "/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal",
+        "type": 301
+        },
+        {
+        "source": "/prendedor-de-porta",
+        "destination": "/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher",
+        "type": 301
+        },
+        {
+        "source": "/a-maleta-de-ferramentas-ideal-para-voce",
+        "destination": "/posts/caixa-e-maletas-organizadoras-vonder-qual-escolher",
+        "type": 301
+        },
+        {
+        "source": "/saiba-como-utilizar-sua-parafusadeira",
+        "destination": "/posts/parafusadeira-e-furadeira-de-impacto-saiba-como-usar",
+        "type": 301
+        },
+        {
+        "source": "/fita-adesiva-antiderrapante-dicas-beneficios",
+        "destination": "/posts/fita-adesiva-antiderrapante-dicas-e-beneficios",
+        "type": 301
+        },
+        {
+        "source": "/como-escolher-o-suporte-perfeito-para-sua-prateleira-de-vidro",
+        "destination": "/posts/como-escolher-seu-suporte-para-vidro",
+        "type": 301
+        },
+        {
+        "source": "/conheca-um-pouco-sobre-a-vonder",
+        "destination": "/posts/conheca-um-pouco-sobre-a-vonder",
+        "type": 301
+        },
+        {
+        "source": "/quem-somos",
+        "destination": "/pages/sobre-nos",
+        "type": 301
+        },
+        {
+        "source": "/devolucao",
+        "destination": "/pages/trocas",
+        "type": 301
+        },
+        {
+        "source": "/compre-e-retire-na-loja",
+        "destination": "/pages/faq",
+        "type": 301
+        },
+        {
+        "source": "/politica-de-entrega-de-produtos",
+        "destination": "/pages/entrega",
+        "type": 301
+        },
+        {
+        "source": "/politicas-de-privacidade",
+        "destination": "/pages/privacidade",
+        "type": 301
+        },
+        {
+        "source": "url inativa no dooca",
+        "destination": "/pages/termos",
+        "type": 301
+        },
+        {
+        "source": "/politica-de-qualidade-desicon-ferragens",
+        "destination": "/pages/politica-de-qualidade",
+        "type": 301
+        }
     ],
     "public": "dist",
     "ignore": [
