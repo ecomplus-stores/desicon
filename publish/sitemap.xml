@@ -11516,6 +11516,42 @@
     </url>
   
     <url>
+      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/chuveiros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/desiconevoce</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://desicon.netlify.app/ferramentas-worx</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -11894,42 +11930,6 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/chuveiros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/desiconevoce</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -12014,13 +12014,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/discos-de-corte-dicas-de-uso-e-modelos</loc>
+      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
+      <loc>https://desicon.netlify.app/posts/discos-de-corte-dicas-de-uso-e-modelos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12080,25 +12080,25 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/repaginando-a-casa-acessorios-para-banheiro</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
+      <loc>https://desicon.netlify.app/posts/repaginando-a-casa-acessorios-para-banheiro</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
       <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
