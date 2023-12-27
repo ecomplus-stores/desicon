@@ -11516,6 +11516,42 @@
     </url>
   
     <url>
+      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/chuveiros</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/desiconevoce</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://desicon.netlify.app/ferramentas-worx</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -11894,42 +11930,6 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/colecao-sucesso-desicon</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-vidraceiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/amigo-marceneiro</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/prateleiras-e-decoracao</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/chuveiros</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/desiconevoce</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -12002,13 +12002,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro</loc>
+      <loc>https://desicon.netlify.app/posts/dicas-de-instalacao-mola-aerea</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/dicas-de-instalacao-mola-aerea</loc>
+      <loc>https://desicon.netlify.app/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12044,13 +12044,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/parafusadeira-e-furadeira-de-impacto-saiba-como-usar</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/parafusadeira-e-furadeira-de-impacto-saiba-como-usar</loc>
+      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12116,15 +12116,15 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/blog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
