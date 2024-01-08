@@ -11984,6 +11984,12 @@
     </url>
   
     <url>
+      <loc>https://desicon.netlify.app/posts/como-escolher-seu-suporte-para-vidro</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>https://desicon.netlify.app/posts/como-reformar-moveis-antigos-e-usados</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -11991,12 +11997,6 @@
   
     <url>
       <loc>https://desicon.netlify.app/posts/conheca-um-pouco-sobre-a-vonder</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
-      <loc>https://desicon.netlify.app/posts/como-escolher-seu-suporte-para-vidro</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12020,13 +12020,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
+      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/ferragens-qual-o-material-ideal</loc>
+      <loc>https://desicon.netlify.app/posts/fita-adesiva-antiderrapante-dicas-e-beneficios</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12038,13 +12038,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas</loc>
+      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12074,12 +12074,6 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/principais-ferramentas-para-casa</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/posts/repaginando-a-casa-acessorios-para-banheiro</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -12092,13 +12086,19 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
+      <loc>https://desicon.netlify.app/posts/principais-ferramentas-para-casa</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
       <loc>https://desicon.netlify.app/posts/saiba-como-fazer-suas-compras-online-de-forma-segura</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/posts/subindo-de-nivel-com-as-ferramentas-irwin</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12134,13 +12134,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/admin/index</loc>
+      <loc>https://desicon.netlify.app/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/app/index</loc>
+      <loc>https://desicon.netlify.app/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
