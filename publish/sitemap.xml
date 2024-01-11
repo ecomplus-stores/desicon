@@ -12002,13 +12002,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/dicas-de-instalacao-mola-aerea</loc>
+      <loc>https://desicon.netlify.app/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro</loc>
+      <loc>https://desicon.netlify.app/posts/dicas-de-instalacao-mola-aerea</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12038,13 +12038,13 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
+      <loc>https://desicon.netlify.app/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas</loc>
+      <loc>https://desicon.netlify.app/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -12116,15 +12116,15 @@
     </url>
   
     <url>
-      <loc>https://desicon.netlify.app/</loc>
-      <changefreq>daily</changefreq>
-      <priority>1</priority>
-    </url>
-  
-    <url>
       <loc>https://desicon.netlify.app/blog</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://desicon.netlify.app/</loc>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
     </url>
   
     <url>
