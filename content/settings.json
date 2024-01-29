@@ -9,8 +9,8 @@
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/desicon",
   "logo": "/img/uploads/logo-desicon-oficial-png.png",
-  "name": "Desicon",
-  "short_name": "Desicon",
+  "name": "Desicon construção, utilidades e ferramentas",
+  "short_name": "Desicon construção, utilidades e ferramentas",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -21,6 +21,6 @@
   "secondary_color": "#007eb8",
   "icon": "/img/uploads/favicon-desicon-ferragens.png",
   "store_id": 51372,
-  "description": "Desicon",
+  "description": "Na Desicon, nossa missão é fornecer a clientes e parceiros uma experiência de compra unificada, independentemente do canal escolhido. Comprometemo-nos a oferecer produtos de alta qualidade a preços competitivos e serviços personalizados que atendam às suas necessidades.",
   "large_icon": "/img/uploads/favicon-desicon-ferragens.png"
 }
