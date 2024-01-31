@@ -220,6 +220,26 @@
         "source": "/politica-de-qualidade-desicon-ferragens",
         "destination": "/pages/politica-de-qualidade",
         "type": 301
+        },
+        {
+          "source": "/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
+          "destination": "/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro",
+          "type": 301
+        },
+        {
+          "source": "/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
+          "destination": "/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro",
+          "type": 301
+        },
+        {
+          "source": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm/incolor",
+          "destination": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm",
+          "type": 301
+        },
+        {
+          "source": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm/incolor",
+          "destination": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm",
+          "type": 301
         }
     ],
     "public": "dist",
