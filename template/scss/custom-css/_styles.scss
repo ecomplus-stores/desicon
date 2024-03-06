@@ -5,3 +5,11 @@
 .product-card__name {
     --max-lines: 4;
 }
+@media(max-width: 767px) {
+    #instant-search .backdrop + .search__box .product-card--small {
+      padding-bottom: 45px
+    }
+    #instant-search .backdrop + .search__box .product-card--small .product-card__buy {
+      left: 8px
+    }
+}
