@@ -3,6 +3,7 @@ import query from '@ecomplus/search-engine/src/lib/dsl'
 
 export default (self, term) => {
   const arr = (term || '').split(' ')
+  const arrayLength = arr.length
   /* const removeChar = (arr) => { 
     if (arr.length === 1) {
       return arr[0].replace(/(es)|s$/g, '')
@@ -53,7 +54,11 @@ export default (self, term) => {
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: finalTerm.length > 2 ? 'best_fields' : 'phrase_prefix',
+      type: finalTerm.length > 2 ? 
+        arrayLength > 1 
+          ? 'most_fields' 
+          : 'best_fields' 
+          : 'phrase_prefix',
       fields: [
         'name',
         'keywords'
