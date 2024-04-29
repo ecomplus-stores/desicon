@@ -1,4 +1,17 @@
 {
-  "title": "Programa de afiliados",
-  "body": "c﻿orpo"
+  "title": "Indique",
+  "meta_title": "Indique nossos produtos e ganhe descontos exclusivos no site!",
+  "meta_description": "Indique nossos produtos e ganhe descontos exclusivos no site!",
+  "body": "Compartilhe um link com seu código de **15% desconto** para primeiras compras no Empório Tia Sônia!\n\nA gente vai te dar **R$25 por cada indicação** bem-sucedida.\n\n<div id=\"affiliate-link\"></div>",
+  "sections": [    
+    {
+      "type": "page-title",
+      "title": "Indique a Desicon: Dê X% off e ganhe R$Y",
+      "description": ""
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    }
+  ]
 }
