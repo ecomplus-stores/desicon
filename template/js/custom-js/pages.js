@@ -8,3 +8,8 @@ if (affiliateLinkDiv) {
     new Vue(AffiliateLink).$mount(affiliateLinkDiv)
   })
 }
+
+if($('#page-products').length > 0){
+  window.mainProductGallery = [];
+  window.mainProductGallery_ = []; 
+}

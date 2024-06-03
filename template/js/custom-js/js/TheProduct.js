@@ -579,6 +579,8 @@ import {
     },
   
     mounted () {
+      window.mainProductGallery_ = [...this.body.pictures] 
+      window.mainProductGallery = [...this.body.pictures]
       if (this.$refs.sticky && !this.isWithoutPrice) {
         let isBodyPaddingSet = false
         const setStickyBuyObserver = (isToVisible = true) => {
