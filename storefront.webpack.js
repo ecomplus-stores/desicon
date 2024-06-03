@@ -11,6 +11,8 @@ module.exports = () => ({
       './methods/set-search-term': path.resolve(dirSearchAlias, 'set-search-term'),
       './js/ShippingCalculator.js': path.resolve(__dirname, 'template/js/custom-js/js/ShippingCalculator.js'),
       './html/ShippingCalculator.html': path.resolve(__dirname, 'template/js/custom-js/html/ShippingCalculator.html'),
+      './html/ProductVariations.html': path.resolve(__dirname, 'template/js/custom-js/html/ProductVariations.html'),   
+      './js/ProductVariations.js': path.resolve(__dirname, 'template/js/custom-js/js/ProductVariations.js'),   
       './html/TheProduct.html': path.resolve(__dirname, 'template/js/custom-js/html/TheProduct.html'),
       './js/TheProduct.js': path.resolve(__dirname, 'template/js/custom-js/js/TheProduct.js')
       //'./html/TheAccount.html': path.resolve(__dirname, 'template/js/custom-js/html/TheAccount.html'),
