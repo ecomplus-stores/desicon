@@ -10,18 +10,23 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banners-principal-site-3.avif"
+          "img": "/img/uploads/banner-site.avif"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-header-desktop-entrega-express-1200x300px.jpg",
+          "img": "/img/uploads/banner-site-modais-frete.avif",
           "mobile_img": ""
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banners-principal-site-marcenaria.avif"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-site-vidros.avif"
         }
       ]
     },
