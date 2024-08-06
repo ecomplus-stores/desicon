@@ -30,19 +30,19 @@
       "enabled": true
     },
     {
-      "type": "custom-html",
-      "html": "   <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                <a href=\"/rodizios-rodas-e-rodinhas\">\n                    <img src=\"/img/uploads/rodinhas-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                        alt=\"Rodinhas e rodízios para móveis\"></a>\n            </div>\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                <a href=\"/prateleiras\">\n                    <img src=\"/img/uploads/suportes-prateleira-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                        alt=\"Prateleiras e suportes para prateleiras\"></a>\n            </div>\n        </div>\n     \n       <div class=\"row\">\n              <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                  <a href=\"/silicones-colas-quimicos\">\n                      <img src=\"/img/uploads/cola-vedante-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                          alt=\"Colas, tintas e vedantes\"></a>\n              </div>\n              <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                  <a href=\"/acessorios-para-moveis\">\n                      <img src=\"/img/uploads/acessorio-moveis-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                          alt=\"Acessórios para móveis, puxadores e pistões\"></a>\n              </div>\n          </div>\n    </div>"
-    },
-    {
       "autoplay": 0,
       "page": 1,
-      "title": "Sucesso da Desicon",
+      "title": "Sucesso Absoluto",
       "shuffle": true,
       "headless": false,
       "type": "collection-shelf",
       "limit": 12,
       "collection_id": "6439a5e64bd2e929c1d02cfb:collections:coleção sucesso desicon:/teste-colecao-menu",
       "sort": "offers"
+    },
+    {
+      "type": "custom-html",
+      "html": "   <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                <a href=\"/rodizios-rodas-e-rodinhas\">\n                    <img src=\"/img/uploads/rodinhas-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                        alt=\"Rodinhas e rodízios para móveis\"></a>\n            </div>\n            <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                <a href=\"/prateleiras\">\n                    <img src=\"/img/uploads/suportes-prateleira-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                        alt=\"Prateleiras e suportes para prateleiras\"></a>\n            </div>\n        </div>\n     \n       <div class=\"row\">\n              <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                  <a href=\"/silicones-colas-quimicos\">\n                      <img src=\"/img/uploads/cola-vedante-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                          alt=\"Colas, tintas e vedantes\"></a>\n              </div>\n              <div class=\"col-12 col-sm-12 col-md-6 col-lg-6\" style=\"margin-top:15px\">\n                  <a href=\"/acessorios-para-moveis\">\n                      <img src=\"/img/uploads/acessorio-moveis-mini-banner-homepage-desicon.jpg\" class=\"card-img-top\"\n                          alt=\"Acessórios para móveis, puxadores e pistões\"></a>\n              </div>\n          </div>\n    </div>"
     },
     {
       "type": "custom-html",
