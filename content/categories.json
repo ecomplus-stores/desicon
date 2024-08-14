@@ -13,7 +13,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div>\n<p id=\"onLoadShorDescription\"></p>  \n<span><p style=\"text-align:right\" class=\"product-card__name\" onclick=\"\n          const element = document.querySelector('.category-description');\n          if (element) {\n              element.scrollIntoView({ behavior: 'smooth' });\n          }\n        \" >Mais ↓</p></span>\n</div>\n\n<script>\nwindow.onload = function() {\n  const categoryDescription = document.querySelector('.category-description p');\n    if (categoryDescription) {\n      document.getElementById(\"onLoadShorDescription\").innerHTML = categoryDescription.innerHTML     \n      console.log('teste onload agora só ');\n    }\n}\n</script>"
+      "html": "<div>\n<p id=\"onLoadShorDescription\"></p>  \n<span><p style=\"text-align:right; color:#F29521; cursor:pointer\" class=\"product-card__name\" onclick=\"\n          const element = document.querySelector('.category-description');\n          if (element) {\n              element.scrollIntoView({ behavior: 'smooth' });\n          }\n        \" >Mais ↓</p></span>\n</div>\n\n<script>\nwindow.onload = function() {\n  const categoryDescription = document.querySelector('.category-description p');\n    if (categoryDescription) {\n      document.getElementById(\"onLoadShorDescription\").innerHTML = categoryDescription.innerHTML     \n      console.log('teste onload agora só ');\n    }\n}\n</script>"
     },
     {
       "type": "category-retail",
