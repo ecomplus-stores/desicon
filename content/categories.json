@@ -13,7 +13,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div>\n<p onload=\"const categoryDescription = document.querySelector('.category-description p');\n    if (categoryDescription) {\n        this.innerHTML = categoryDescription.innerHTML;\n           console.log('teste onload')\n    }\"></p>  \n<span><p style=\"text-align:right\" class=\"product-card__name\" onclick=\"\n          const element = document.querySelector('.category-description');\n          if (element) {\n              element.scrollIntoView({ behavior: 'smooth' });\n          }\n        \" >Mais ↓</p></span>\n</div>"
+      "html": "<div>\n<p onload=\"const categoryDescription = document.querySelector('.category-description p');\n    if (categoryDescription) {\n        this.innerHTML = categoryDescription.innerHTML;\n           console.log('teste onload');\n    }\"></p>  \n<span><p style=\"text-align:right\" class=\"product-card__name\" onclick=\"\n          const element = document.querySelector('.category-description');\n          if (element) {\n              element.scrollIntoView({ behavior: 'smooth' });\n          }\n        \" >Mais ↓</p></span>\n</div>"
     },
     {
       "type": "category-retail",
