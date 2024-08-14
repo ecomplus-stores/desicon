@@ -12,6 +12,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "<div>\n<span><p style=\"text-align:right\" class=\"product-card__name\" onclick=\"\n          const element = document.querySelector('.category-description');\n          if (element) {\n              element.scrollIntoView({ behavior: 'smooth' });\n          }\n        \" >Mais ↓</p></span>\n</div>"
+    },
+    {
       "type": "category-retail",
       "enabled": true,
       "sort": "sales"
