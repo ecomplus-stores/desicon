@@ -240,22 +240,22 @@
           "source": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm/incolor",
           "destination": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm",
           "type": 301
-        }
+        },
         {
          "source": "/prumo-cilindrico",
          "destination": "/prumo-de-centro",
          "type": 301
         },
-       {
-       "source": "/prumo-cilindrico-c588",
-       "destination": "/prumo-de-centro",
-      "type": 301
-       },
-       {
-       "source": "/stanley",
-       "destination": "/stanley-ferramentas",
-       "type": 301
-       },
+        {
+         "source": "/prumo-cilindrico-c588",
+         "destination": "/prumo-de-centro",
+         "type": 301
+        },
+        {
+         "source": "/stanley",
+         "destination": "/stanley-ferramentas",
+         "type": 301
+        },
     ],
     "public": "dist",
     "ignore": [
