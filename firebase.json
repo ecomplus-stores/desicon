@@ -255,7 +255,7 @@
          "source": "/stanley",
          "destination": "/stanley-ferramentas",
          "type": 301
-        },
+        }
     ],
     "public": "dist",
     "ignore": [
