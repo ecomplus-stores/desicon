@@ -1,10 +1,6 @@
 {
   "sections": [
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/banner-site-desicash.jpg"
     }
