@@ -3,6 +3,22 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/banner-site-desicash.jpg"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/como-participar-desicash-.png"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/regras-desicach-.jpg"
+        }
+      ]
     }
   ],
   "title": "Programa de Fidelidade DesiCash",
