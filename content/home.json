@@ -10,17 +10,21 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site.avif"
+          "img": "/img/uploads/banner-loja-profissional.jpg",
+          "alt": "a loja profissional"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banners-principal-site-marcenaria.avif"
+          "img": "/img/uploads/banner-acessorios-para-moveis.png",
+          "alt": "confira acessórios para móveis",
+          "link": "https://www.desicon.com.br/acessorios-para-moveis"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-site-vidros.avif"
+          "img": "/img/uploads/banner-chegando-agora.png",
+          "alt": "bem vindos"
         }
       ]
     },
