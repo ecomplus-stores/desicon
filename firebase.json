@@ -7,6 +7,21 @@
         "type": 301
         },
         {
+        "source": "/suporte-tucano-medio-cromado",
+        "destination": "/suporte-tucano-medio-plastico",
+        "type": 301
+        },
+        {
+        "source": "/suporte-tucano-medio-branco",
+        "destination": "/suporte-tucano-medio-branco-regulavel-plastico-engenharia",
+        "type": 301
+         },
+         {
+         "source": "/suporte-tucano-medio-preto",
+         "destination": "/suporte-para-prateleira-tucano-medio-preto-em-plastico-abs",
+         "type": 301
+         },
+        {
         "source": "/rodizio-giratorio-em-gel-silicone-transparente-35mm-com-trava",
         "destination": "/rodizio-giratrio-em-gel-silicone-transparente-35mm-com-trava",
         "type": 301
