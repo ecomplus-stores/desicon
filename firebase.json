@@ -275,6 +275,11 @@
          "source": "/prateleira",
          "destination": "/prateleiras",
          "type": 301
+        },
+        {
+         "source": "/botao-frances-espelhos-plastico",
+         "destination": "/botao-frances-abs-metalizado",
+         "type": 301
         }
     ],
     "public": "dist",
