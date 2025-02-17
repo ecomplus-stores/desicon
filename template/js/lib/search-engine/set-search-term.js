@@ -30,12 +30,13 @@ export default (self, term) => {
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: 'cross_fields', // Alterado para cross_fields
+      type: 'best_fields', // Usando best_fields
       fields: [
         'name',
         'keywords'
       ],
-      operator: 'and' // Garante que a maioria dos termos deve corresponder
+      operator: 'or' // Padrão: documentos podem corresponder a qualquer termo
+      // operator: 'and' // Exige que todos os termos correspondam
     }
   }, 'must')
   
