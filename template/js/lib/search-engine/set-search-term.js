@@ -11,6 +11,8 @@ export default (self, term) => {
         switch (lower) {
           case 'prateleiras':
             return 'prateleira'
+          case 'alca':
+            return 'alça'
           default:
             return lower
         }
@@ -26,17 +28,16 @@ export default (self, term) => {
     self.dsl.sort = sort
   }
 
-  const finalTerm = term
+  const finalTerm = fromTo(arr) || term // Aplicando a substituição de termos
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: 'best_fields', // Usando best_fields
+      type: 'best_fields', // Ou 'cross_fields', dependendo da sua necessidade
       fields: [
         'name',
         'keywords'
       ],
-      operator: 'or' // Padrão: documentos podem corresponder a qualquer termo
-      // operator: 'and' // Exige que todos os termos correspondam
+      operator: 'or' // Ou 'and', dependendo da sua necessidade
     }
   }, 'must')
   
