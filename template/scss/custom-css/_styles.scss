@@ -54,3 +54,24 @@
 .product-item {
   height: 100%;
 }
+
+.apx_listing_colors{
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: .5rem;
+  span{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+  }
+  .more_colors{
+    font-size: 12px;
+    line-height: 16px;
+    border: 0;
+    text-decoration: none;
+    color: #000!important;
+  }
+}
