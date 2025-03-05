@@ -229,7 +229,7 @@ export default {
     
       return colorList[colorTitle] || null; // Retorna a cor ou null caso não exista
     },
-    
+     
     fetchItem () {
       if (this.productId) {
         this.isLoading = true
