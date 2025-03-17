@@ -224,7 +224,9 @@ export default {
         "cinza azulado": "#5F9EA0",
         "cinza esverdeado": "#8F9779",
         "carvao vegetal": "#36454F",
-        "antique" : "#8a6455"
+        "antique" : "#8a6455",
+        "polido" : "#D3D3D3",
+        "escovado" : "#E5E4E2"
       };
     
       return colorList[colorTitle] || null; // Retorna a cor ou null caso não exista

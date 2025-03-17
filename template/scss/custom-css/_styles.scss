@@ -66,6 +66,18 @@
     border-radius: 50%;
     height: 16px;
     width: 16px;
+    position: relative;
+  }
+  span[data="Transparente"]:after{
+    content: "";
+    height: 1px;
+    background: red;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    rotate: -45deg;
+
   }
   .more_colors{
     font-size: 12px;
@@ -75,3 +87,9 @@
     color: #000!important;
   }
 }
+.info-bar,
+.banner-slider{max-width: 100%;max-height:unset}
+.page--home .products-carousel,
+
+.page--home .custom-html .container{max-width: 100%;}
+.page--home .brands-carousel{max-width: calc(100% - 5rem);}

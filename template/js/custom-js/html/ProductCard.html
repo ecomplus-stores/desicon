@@ -49,7 +49,7 @@
           </div>
           
           <div class="apx_listing_colors" v-if="body.variationsGrids && body.variationsGrids.cor">
-            <span v-for="item in body.variationsGrids.cor.slice(0, 4)" :style="'background-color:' +  getItemHex(item)"  :title="item + ' - ' + getItemHex(item)"></span>              
+            <span :data="item" v-for="item in body.variationsGrids.cor.slice(0, 4)" :style="'background-color:' +  getItemHex(item)"  :title="item + ' - ' + getItemHex(item)"></span>              
             <span v-if="body.variationsGrids.cor.length > 4" class="more_colors">+{{ body.variationsGrids.cor.length - 4}}</span>
           </div>
           <slot name="title">
