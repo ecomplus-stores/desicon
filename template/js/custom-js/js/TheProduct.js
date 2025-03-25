@@ -648,8 +648,10 @@ import {
           }, 1000)
         }
       }
+          
+
     },
-  
+
     destroyed () {
       if (this.currentTimer) {
         clearInterval(this.currentTimer)

@@ -12,10 +12,7 @@
         "title": ""
       }
     },
-    {
-      "type": "related-products",
-      "title": "Produtos relacionados"
-    },
+    
     {
       "type": "product-description",
       "title": "Quem comprou este produto, também comprou:",
@@ -29,6 +26,11 @@
       "type": "buy-together",
       "enabled": true
     },
+    {
+      "type": "related-products",
+      "title": "Produtos relacionados"
+    },
+    
     {
       "type": "recommended-products",
       "title": "Quem comprou este produto, também comprou:",

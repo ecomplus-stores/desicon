@@ -89,7 +89,12 @@
 }
 .info-bar,
 .banner-slider{max-width: 100%;max-height:unset}
-.page--home .products-carousel,
-
+.products-carousel,
 .page--home .custom-html .container{max-width: 100%;}
 .page--home .brands-carousel{max-width: calc(100% - 5rem);}
+
+.product__payment.card{display: none;}
+
+@media(min-width:990px){
+  .product__info{font-size: 42px;}
+}
