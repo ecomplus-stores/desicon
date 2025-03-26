@@ -199,7 +199,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
     </section>
 
     <div class="row d-none d-md-flex">
-      <div class="col-md-9">
+      <div class="col-md-9 desc-desktop">
         <!-- Custom additional code on bottom of images gallery -->
         <% if (_.state.short_description) { %>
           <p class="product__info mt-3 lead d-none d-md-block">
@@ -214,6 +214,8 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
             if(window.innerWidth > 990){
               $('#product-specs').appendTo('.specs-desktop');
               $('#product-specs').attr('class','product-specs');
+              $('#product-description').appendTo('.desc-desktop');
+
             }
             
           });
