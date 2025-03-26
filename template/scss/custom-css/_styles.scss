@@ -98,3 +98,17 @@
 @media(min-width:990px){
   .product__info{font-size: 18px;}
 }
+
+.products-carousel{
+  .product-card__pictures{
+    max-height:unset;
+    height: auto;
+    aspect-ratio: 1;
+    picture{
+      max-height:unset;
+      img{
+        max-height:unset;
+      }
+    }
+  }
+}
