@@ -280,6 +280,30 @@
          "source": "/botao-frances-espelhos-plastico",
          "destination": "/botao-frances-abs-metalizado",
          "type": 301
+        },
+        {
+        "source": "/mb_ferragens",
+        "destination": "/",
+        "type": 301
+        },
+        {
+        "source": "/manluplast",
+        "destination": "/",
+        "type": 301
+        },
+        {
+        "source": "/fortezza",
+        "destination": "/",
+        "type": 301
+        },
+        {
+        "source": "/power-ved",
+        "destination": "/marca/powerved-vedacao-para-os-melhores-profissionais",
+        "type": 301
+        },
+        "source": "/serra-tico-tico-1",
+        "destination": "/serra-tico-tico",
+        "type": 301
         }
     ],
     "public": "dist",
