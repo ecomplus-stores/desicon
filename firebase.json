@@ -306,6 +306,11 @@
         "destination": "/serra-tico-tico",
         "type": 301
         }
+        {
+        "source": "/brocas-1",
+        "destination": "/brocas-e-fresas",
+        "type": 301
+        }
     ],
     "public": "dist",
     "ignore": [
