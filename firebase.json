@@ -310,6 +310,11 @@
         "source": "/brocas-1",
         "destination": "/brocas-e-fresas",
         "type": 301
+        },
+        {
+        "source": "/batedor-bola-de-borracha-para-porta-batente-amortecedor-sfor",
+        "destination": "/seguranca-portas-e-janelas-batedor-de-porta-bola-borracha",
+        "type": 301
         }
     ],
     "public": "dist",
