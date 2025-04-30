@@ -335,6 +335,26 @@
         "source": "/sapata-de-silicone",
         "destination": "/sapata-de-silicone-18mm-com-arruela-de-reforco-para-moveis",
         "type": 301
+        },
+        {
+        "source": "/100-cantoneira-preta-13x13",
+        "destination": "/acessorios-para-moveis/cantoneira-13x13-preta",
+        "type": 301
+        },
+        {    
+        "source": "/cantoneira-preta-13x13",
+        "destination": "/acessorios-para-moveis/cantoneira-13x13-preta",
+        "type": 301
+        },
+        {
+        "source": "/100-suporte-cantoneira-niquelada",
+        "destination": "/acessorios-para-moveis/suporte-cantoneira-niquelada",
+        "type": 301
+        },
+        {
+        "source": "/cantoneira-13x13-branca",
+        "destination": "/acessorios-para-moveis/cantoneira-13x13-branca",
+        "type": 301
         }
     ],
     "public": "dist",
