@@ -315,6 +315,26 @@
         "source": "/batedor-bola-de-borracha-para-porta-batente-amortecedor-sfor",
         "destination": "/seguranca-portas-e-janelas-batedor-de-porta-bola-borracha",
         "type": 301
+        },
+        {
+        "source": "/cadastro",
+        "destination": "/",
+        "type": 301
+        },
+        {
+        "source": "/produtos",
+        "destination": "/",
+        "type": 301
+        },
+        {
+        "source": "/bateria-gopak-12v",
+        "destination": "/kit-ferramentas-5x1-black-decker",
+        "type": 301
+        },
+        {
+        "source": "/sapata-de-silicone",
+        "destination": "/sapata-de-silicone-18mm-com-arruela-de-reforco-para-moveis",
+        "type": 301
         }
     ],
     "public": "dist",
