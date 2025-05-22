@@ -49,7 +49,7 @@
     "amex": false,
     "hipercard": false,
     "boleto": true,
-    "itau": true
+    "itau": false
   },
   "credits": "Copyright © 2025 Desicon | Todos os direitos reservados | Desicon - CNPJ: 23.808.820/0001-00"
 }
