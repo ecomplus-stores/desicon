@@ -114,3 +114,52 @@
     }
   }
 }
+
+.align-items-center{
+  align-items: center!important;
+}
+.brand-row{
+  .brand-box{
+    max-width: 100%;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    span{
+      
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  a{
+    font-size: var(--h4);
+    color: var(--primary);
+  }
+}
+header .top-bar{
+  margin-top: calc(var(--spacer-2) * -1);
+  margin-bottom: calc(var(--spacer-2) * 1);
+  margin-left: calc(var(--spacer-3) * -1);
+  margin-right: calc(var(--spacer-3) * -1);
+  width: calc(100% + (var(--spacer-3) * 2));
+}
+@media(max-width:990px){
+  .brand-row{
+    a{font-size: 18px;line-height: initial;}
+  }
+}
+@media(min-width:990px){
+  .columns-2{columns:2}
+  .stamps>li{margin-right: 5px!important;}
+  body div.footer__stamps img.lozad.fade.show{
+    max-width: 85px;
+  }
+  body div.footer__stamps img.lozad.fade.show[alt="em avaliação ebit"]{max-width: unset;}
+  .footer > .container > .row > div{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  .footer .container{max-width: 1230px;}
+}

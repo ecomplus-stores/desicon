@@ -54,6 +54,9 @@ const hasAllDepartments = header.menu_all_departments
 
 <div id="overlay" class="fade"></div>
 
+
+<header class="header" id="header">
+  
 <div class="top-bar">
   <% if (header.marketing_stripe) { %>
     <% if (header.marketing_stripe.text) { %>
@@ -120,8 +123,6 @@ const hasAllDepartments = header.menu_all_departments
     </div>
   </div>
 </div>
-
-<header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row<%= isCentralizedLogo ? ' header__row--centralized-logo' : '' %><%= isCentralizedLogo && isCategoriesNavFull ? ' header__row--full-width' : '' %>">
       <div class="col-auto p-0 header__toggler-block">

@@ -88,6 +88,26 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
         <div class="col">
           <div class="row">
             <div class="col-md-7">
+              <% if (_.state.brands && _.state.brands[0]) { %>
+                <div class="row align-items-center mb-3 d-flex brand-row">
+                  <div class="col-md-3 col-4">
+                    <a href="<%= _.state.brands[0].slug %>">
+                      <div class="brand-box">
+                      <% if (_.state.brands[0].logo && _.state.brands[0].logo.url) { %>
+                        <img src="<%= _.state.brands[0].logo.url %>" alt="<%= _.state.brands[0].name %>" class="img-fluid">
+                      <% } else { %>
+                        <span>
+                          <%= _.state.brands[0].name.charAt(0).toUpperCase() %>
+                        </span>
+                      <% } %>
+                      </div>  
+                    </a>                  
+                  </div>                    
+                  <div class="col">
+                    <a href="<%= _.state.brands[0].slug %>"><span>Conheça a <span class="d-md-inline d-block"><%= _.state.brands[0].name %></span></span></a>
+                  </div>
+                </div>
+              <% } %>      
               <h1 class="product__name">
                 <%= _.ecomUtils.name(_.state) %>
               </h1>
