@@ -167,3 +167,12 @@ header .top-bar{
   }
   .footer .container{max-width: 1230px;}
 }
+
+.top-bar__nav{
+  padding-bottom: 10px;
+  .top-bar__contacts-container{
+        position: absolute;
+      left: 50%;
+      translate: -50% 0;
+  }
+}
