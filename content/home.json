@@ -13,6 +13,20 @@
           "img": "/img/uploads/a_casa_do_marceneiro.png",
           "mobile_img": "/img/uploads/Conferência_Cristã_De_Mulheres_Banner_Paisagem_Roxo_Cinza_e_Branco.png",
           "alt": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_2.png",
+          "mobile_img": "/img/uploads/banner_2_mobile.png",
+          "alt": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_3.png",
+          "mobile_img": "/img/uploads/banner_3_mobile.png",
+          "alt": ""
         }
       ]
     },
