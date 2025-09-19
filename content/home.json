@@ -47,7 +47,7 @@
     },
     {
       "autoplay": 0,
-      "page": 1,
+      "page": "",
       "title": "Sucesso Absoluto",
       "shuffle": true,
       "headless": false,
