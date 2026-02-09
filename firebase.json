@@ -352,6 +352,11 @@
         "type": 301
         },
         {
+        "source": "/botao-frances-abs-metalizado",
+        "destination": "/botao-frances-abs-metalizado-espelho",
+        "type": 301
+        },
+        {
         "source": "/cantoneira-13x13-branca",
         "destination": "/acessorios-para-moveis/cantoneira-13x13-branca",
         "type": 301
