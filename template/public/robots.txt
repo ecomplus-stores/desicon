@@ -7,7 +7,6 @@ Disallow: /search.html$
 Disallow: /search.html?
 Disallow: /admin/
 Disallow: /buchas-parafusos-e-rebites-de-repuxo
-Disallow: /materiais-eletricos-acessorios
 Disallow: /mola-para-porta-de-madeira
 Disallow: /fort
 Disallow: /maxima_ferragens_e_miudezas_ltda
@@ -57,8 +56,6 @@ Disallow: /prendedor-de-porta-magnetico-amortecimento-fixador-escovado
 Disallow: /batedor-porta-magnetico-des06-fixador-prendedor-magnetizado/cromado
 Disallow: /chave-fendaphillips-gp-4pc-set-sl-ph
 Disallow: /kit-ferramentas-black-decker-martelo-chave-com-06-pecas
-Disallow: /rodizios
-Disallow: /rodizios-abs-duplo
 Disallow: /dobradica-vitrine-rack-armario-par
 Disallow: /produtos?q=aplicador+silicone
 Disallow: /produtos?q=wesco
@@ -78,9 +75,7 @@ Disallow: /amigo-vidraceiro
 Disallow: /veda-porta-rolinho-90cm/chumbo
 Disallow: /suporte-tucano-medio-cromado-c836
 Disallow: /chave-phillips-pc-3-516x6
-Disallow: /trava-porta-borracha
 Disallow: /power-ved
-Disallow: /trava-porta-comfort-door-adesivo
 Disallow: /mb-ferragens
 Disallow: /lorenzetti
 Disallow: /prendedor-de-porta-magnetico-amortecimento-cpm400-cromado-c705?_=feed
@@ -98,7 +93,6 @@ Disallow: /produtos?q=mola
 Disallow: /criativa-puxadores?limit=48
 Disallow: /dobradica-antique-2-polegadas-a66
 Disallow: /devolucao/1000
-Disallow: /suporte-tucano-medio
 Disallow: /tampo-vidro-8mm-temperado-incolor-redondo-diametro-500mm/incolor
 Disallow: /3-dobradicas-antique-a67
 Disallow: /produtos?page=14
@@ -175,9 +169,7 @@ Disallow: /fita-prender-carga
 Disallow: /kit-furadeira-de-impacto-12-600w-brocas-stanley-sdh600g20br?variation
 Disallow: /produtos?page=33
 Disallow: /inclinometro-magnetica-medidor?variation
-Disallow: /corredica-para-gaveta-300mm
 Disallow: /mola-marix-automacao-portas-de-madeira-pivotante-abrir/marrom
-Disallow: /ferramentas
 Disallow: /1000-ventosa-20mm-dimetro-silicone-preto-fixao-com-canal
 Disallow: /tinta-spray-super-color-tekbond/preto-fosco?variation
 Disallow: /veda-porta-rolinho-80cm/marrom-claro
@@ -188,10 +180,8 @@ Disallow: /serra-circular-7-14-pol-1700w-220-v-cbolsa-nylon-stanley?variation
 Disallow: /produtos?page=19
 Disallow: /veda-porta-rolinho-90cm/marrom-claro
 Disallow: /trava-porta-borracha/laranja?variation
-Disallow: /furadeira-de-impacto-a-bateria
 Disallow: /batedor-bola-de-borracha-para-porta-batente-amortecedor-sfor/preto
 Disallow: /campainha-pilha-branca?variation
-Disallow: /furadeira-de-impacto
 Disallow: /cabide-gancho-criativa/rose?variation
 Disallow: /tampo-vidro-8mm-temperado-incolor-redondo-diametro-500mm/incolor?variation
 Disallow: /dobradica-antique-a67-blaskit
