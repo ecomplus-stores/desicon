@@ -75,15 +75,15 @@ import {
           : `background:${rgbs[0]}`
       },
       getVariantImage (optionText){
-        console.log(this.product.variations)
+        if (!Array.isArray(window.mainProductGallery_) || !window.mainProductGallery_.length) return false
         let hasImg = this.product.variations.find(({specifications}) => specifications && specifications.cor && specifications.cor.length && specifications.cor[0].text && specifications.cor[0].text.includes(optionText))
-        if(window.mainProductGallery_.length > 0 && hasImg && hasImg.picture_id){
+        if(hasImg && hasImg.picture_id){
           let inGalleryPictureId = window.mainProductGallery_.find(el_ => el_._id == hasImg.picture_id)
-          if(inGalleryPictureId && inGalleryPictureId.normal.url){
-            return inGalleryPictureId.normal.url
+          if(inGalleryPictureId && (inGalleryPictureId.normal || inGalleryPictureId.zoom) ){
+            return (inGalleryPictureId.normal || inGalleryPictureId.zoom).url
           }
         }
-        return false;
+        return false
       },
       getSpecValue (optionText, grid) {
         const { variations } = this.product
