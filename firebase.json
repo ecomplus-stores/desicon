@@ -1,472 +1,517 @@
 {
-  "hosting": {
-    "redirects": [
-      {
-        "source": "/rodizio-giratorio-em-gel-silicone-transparente-35mm-sem-trava-1",
-        "destination": "/rodizio-giratrio-em-gel-silicone-transparente-35mm-sem-trava",
-        "type": 301
-        },
-        {
-        "source": "/suporte-tucano-medio-cromado",
-        "destination": "/suporte-tucano-medio-plastico",
-        "type": 301
-        },
-        {
-        "source": "/suporte-tucano-medio-branco",
-        "destination": "/suporte-tucano-medio-branco-regulavel-plastico-engenharia",
-        "type": 301
+   "hosting":{
+      "redirects":[
+         {
+            "source":"/trava-porta-borracha---preto",
+            "destination":"/trava-calco-para-porta-de-borracha",
+            "type":301
          },
          {
-         "source": "/suporte-tucano-medio-preto",
-         "destination": "/suporte-para-prateleira-tucano-medio-preto-em-plastico-abs",
-         "type": 301
+            "source":"/trava-porta-borracha---cinza",
+            "destination":"/trava-calco-para-porta-de-borracha",
+            "type":301
          },
-        {
-        "source": "/rodizio-giratorio-em-gel-silicone-transparente-35mm-com-trava",
-        "destination": "/rodizio-giratrio-em-gel-silicone-transparente-35mm-com-trava",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-50cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-50cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-40cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-40cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-25cm-para-gaveta-ligth-25kg-h35-hardt",
-        "destination": "/corredica-telescopica-25cm",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-45cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-45cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/rodizio-50mm-sem-trava-pvc-laranja",
-        "destination": "/rodizio-sem-trava-laranja-50mm",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-30cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-30cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-60cm-para-gaveta-ligth-25kg-h35-hardt",
-        "destination": "/corredica-telescopica-60cm",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-25cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-25cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-50-cm-para-gaveta-ligth-25kg-h35-hardt",
-        "destination": "/corredica-telescopica-50cm",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-40cm-para-gaveta-ligth-25kg-h35-hardt",
-        "destination": "/corredica-telescopica-40cm",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-60cm-para-gaveta-moveis-37kg-h45-hardt",
-        "destination": "/corredica-telescopica-60cm-h45",
-        "type": 301
-        },
-        {
-        "source": "/corredica-telescopica-45cm-para-gaveta-ligth-25kg-h35-hardt",
-        "destination": "/corredica-telescopica-45cm",
-        "type": 301
-        },
-        {
-        "source": "/suporte-para-prateleira-mao-francesa",
-        "destination": "/posts/suporte-para-prateleira-mao-francesa",
-        "type": 301
-        },
-        {
-        "source": "/compra-online-segura",
-        "destination": "/posts/saiba-como-fazer-suas-compras-online-de-forma-segura",
-        "type": 301
-        },
-        {
-        "source": "/reformando-moveis",
-        "destination": "/posts/como-reformar-moveis-antigos-e-usados",
-        "type": 301
-        },
-        {
-        "source": "/subindo-de-nivel-com-as-ferramentas-irwin",
-        "destination": "/posts/subindo-de-nivel-com-as-ferramentas-irwin",
-        "type": 301
-        },
-        {
-        "source": "/polimento-automotivo-boinas-e-politriz-para-que-servem",
-        "destination": "/posts/polimento-automotivo-boinas-e-politriz-para-que-servem",
-        "type": 301
-        },
-        {
-        "source": "/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
-        "destination": "/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
-        "type": 301
-        },
-        {
-        "source": "/como-contratar-um-bom-pedreiro",
-        "destination": "/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro",
-        "type": 301
-        },
-        {
-        "source": "/disco-de-corte-dicas-de-uso-e-suas-diferenciacoes",
-        "destination": "/posts/discos-de-corte-dicas-de-uso-e-modelos",
-        "type": 301
-        },
-        {
-        "source": "/ferragens-qual-o-material-ideal",
-        "destination": "/posts/ferragens-qual-o-material-ideal",
-        "type": 301
-        },
-        {
-        "source": "/prateleiras-falando-de-suportes",
-        "destination": "/posts/prateleiras-falando-de-suportes",
-        "type": 301
-        },
-        {
-        "source": "/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
-        "destination": "/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
-        "type": 301
-        },
-        {
-        "source": "/repaginando-a-casa-acessorios-para-banheiro",
-        "destination": "/posts/repaginando-a-casa-acessorios-para-banheiro",
-        "type": 301
-        },
-        {
-        "source": "/principais-ferramentas-para-casa",
-        "destination": "/posts/principais-ferramentas-para-casa",
-        "type": 301
-        },
-        {
-        "source": "/acessibilidade-ergonomia",
-        "destination": "/posts/acessibilidade-e-ergonomia-como-incluir-em-nosso-dia-a-dia",
-        "type": 301
-        },
-        {
-        "source": "/dicas-de-instalacao-mola-aerea",
-        "destination": "/posts/dicas-de-instalacao-mola-aerea",
-        "type": 301
-        },
-        {
-        "source": "/mao-francesa-inspiracoes-para-o-seu-diy",
-        "destination": "/posts/mao-francesa-inspiracoes-para-o-seu-diy",
-        "type": 301
-        },
-        {
-        "source": "/rodinhas-e-rodizios-para-moveis",
-        "destination": "/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal",
-        "type": 301
-        },
-        {
-        "source": "/prendedor-de-porta",
-        "destination": "/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher",
-        "type": 301
-        },
-        {
-        "source": "/a-maleta-de-ferramentas-ideal-para-voce",
-        "destination": "/posts/caixa-e-maletas-organizadoras-vonder-qual-escolher",
-        "type": 301
-        },
-        {
-        "source": "/saiba-como-utilizar-sua-parafusadeira",
-        "destination": "/posts/parafusadeira-e-furadeira-de-impacto-saiba-como-usar",
-        "type": 301
-        },
-        {
-        "source": "/fita-adesiva-antiderrapante-dicas-beneficios",
-        "destination": "/posts/fita-adesiva-antiderrapante-dicas-e-beneficios",
-        "type": 301
-        },
-        {
-        "source": "/como-escolher-o-suporte-perfeito-para-sua-prateleira-de-vidro",
-        "destination": "/posts/como-escolher-seu-suporte-para-vidro",
-        "type": 301
-        },
-        {
-        "source": "/conheca-um-pouco-sobre-a-vonder",
-        "destination": "/posts/conheca-um-pouco-sobre-a-vonder",
-        "type": 301
-        },
-        {
-        "source": "/quem-somos",
-        "destination": "/pages/sobre-nos",
-        "type": 301
-        },
-        {
-        "source": "/devolucao",
-        "destination": "/pages/trocas",
-        "type": 301
-        },
-        {
-        "source": "/compre-e-retire-na-loja",
-        "destination": "/pages/faq",
-        "type": 301
-        },
-        {
-        "source": "/politica-de-entrega-de-produtos",
-        "destination": "/pages/entrega",
-        "type": 301
-        },
-        {
-        "source": "/politicas-de-privacidade",
-        "destination": "/pages/privacidade",
-        "type": 301
-        },
-        {
-        "source": "url inativa no dooca",
-        "destination": "/pages/termos",
-        "type": 301
-        },
-        {
-        "source": "/politica-de-qualidade-desicon-ferragens",
-        "destination": "/pages/politica-de-qualidade",
-        "type": 301
-        },
-        {
-          "source": "/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
-          "destination": "/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro",
-          "type": 301
-        },
-        {
-          "source": "/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
-          "destination": "/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro",
-          "type": 301
-        },
-        {
-          "source": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm/incolor",
-          "destination": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm",
-          "type": 301
-        },
-        {
-          "source": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm/incolor",
-          "destination": "/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm",
-          "type": 301
-        },
-        {
-         "source": "/prumo-cilindrico",
-         "destination": "/prumo-de-centro",
-         "type": 301
-        },
-        {
-         "source": "/prumo-cilindrico-c588",
-         "destination": "/prumo-de-centro",
-         "type": 301
-        },
-        {
-         "source": "/stanley",
-         "destination": "/stanley-ferramentas",
-         "type": 301
-        },
-        {
-         "source": "/prateleira",
-         "destination": "/prateleiras",
-         "type": 301
-        },
-        {
-         "source": "/botao-frances-espelhos-plastico",
-         "destination": "/botao-frances-abs-metalizado",
-         "type": 301
-        },
-        {
-        "source": "/mb_ferragens",
-        "destination": "/",
-        "type": 301
-        },
-        {
-        "source": "/manluplast",
-        "destination": "/",
-        "type": 301
-        },
-        {
-        "source": "/fortezza",
-        "destination": "/",
-        "type": 301
-        },
-        {
-        "source": "/power-ved",
-        "destination": "/marca/powerved-vedacao-para-os-melhores-profissionais",
-        "type": 301
-        },
-        {
-        "source": "/serra-tico-tico-1",
-        "destination": "/serra-tico-tico",
-        "type": 301
-        },
-        {
-        "source": "/brocas-1",
-        "destination": "/brocas-e-fresas",
-        "type": 301
-        },
-        {
-        "source": "/batedor-bola-de-borracha-para-porta-batente-amortecedor-sfor",
-        "destination": "/seguranca-portas-e-janelas-batedor-de-porta-bola-borracha",
-        "type": 301
-        },
-        {
-        "source": "/cadastro",
-        "destination": "/",
-        "type": 301
-        },
-        {
-        "source": "/produtos",
-        "destination": "/",
-        "type": 301
-        },
-        {
-        "source": "/bateria-gopak-12v",
-        "destination": "/kit-ferramentas-5x1-black-decker",
-        "type": 301
-        },
-        {
-        "source": "/sapata-de-silicone",
-        "destination": "/sapata-de-silicone-18mm-com-arruela-de-reforco-para-moveis",
-        "type": 301
-        },
-        {
-        "source": "/100-cantoneira-preta-13x13",
-        "destination": "/acessorios-para-moveis/cantoneira-13x13-preta",
-        "type": 301
-        },
-        {    
-        "source": "/cantoneira-preta-13x13",
-        "destination": "/acessorios-para-moveis/cantoneira-13x13-preta",
-        "type": 301
-        },
-        {
-        "source": "/100-suporte-cantoneira-niquelada",
-        "destination": "/acessorios-para-moveis/suporte-cantoneira-niquelada",
-        "type": 301
-        },
-        {
-        "source": "/botao-frances-abs-metalizado",
-        "destination": "/botao-frances-abs-metalizado-espelho",
-        "type": 301
-        },
-        {
-        "source": "/cantoneira-13x13-branca",
-        "destination": "/acessorios-para-moveis/cantoneira-13x13-branca",
-        "type": 301
-        }
-    ],
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**/!(*(*.)js|*(*.)css|*(*.)ico|*(*.)png|*(*.)gif|*(*.)jpg|*(*.)jpeg|*(*.)webp|*(*.)svg|*(*.)woff|*(*.)woff2|*(*.)otf|*(*.)ttf|*(*.)eot)",
-        "function": "ssr"
-      },
-      {
-        "source": "/storefront.?*.js",
-        "destination": "/storefront.js"
-      },
-      {
-        "source": "/storefront.?*.css",
-        "destination": "/storefront.css"
-      },
-      {
-        "source": "/checkout.?*.js",
-        "destination": "/checkout.js"
-      },
-      {
-        "source": "/checkout.?*.css",
-        "destination": "/checkout.css"
-      }
-    ],
-    "headers": [
-      {
-        "source": "/",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=30, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "/img/**",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=300, s-maxage=60, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "/assets/**",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=86400, s-maxage=600"
-          }
-        ]
-      },
-      {
-        "source": "/chunk.?*.*",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=31536000"
-          }
-        ]
-      },
-      {
-        "source": "/app/**",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=300, stale-while-revalidate=900"
-          }
-        ]
-      },
-      {
-        "source": "/@(storefront|checkout).@(js|css)",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=0, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "**/*.?????*.@(js|css)",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=31536000"
-          }
-        ]
-      }
-    ],
-    "cleanUrls": true
-  },
-  "functions": {
-    "predeploy": [
-      "cp -r template .functions/; rm -rf .functions/template/public; rm -rf .functions/template/scss",
-      "cp -r content .functions/; cp .*.json .functions/",
-      "mkdir -p .functions/template/pages/@ecomplus/storefront-template/template",
-      "cp -r node_modules/@ecomplus/widget-* .functions/template/pages/@ecomplus/ 2>/dev/null || :",
-      "cp -r node_modules/@ecomplus/storefront-template/template/pages .functions/template/pages/@ecomplus/storefront-template/template/ || :",
-      "rm -rf .functions/template/pages/**/node_modules"
-    ],
-    "postdeploy": "rm -rf .functions/template; rm -rf .functions/content; rm -rf .functions/.*.json",
-    "source": ".functions"
-  }
+         {
+            "source":"/trava-porta-borracha---laranja",
+            "destination":"/trava-calco-para-porta-de-borracha",
+            "type":301
+         },
+         {
+            "source":"/trava-porta-borracha---branco",
+            "destination":"/trava-calco-para-porta-de-borracha",
+            "type":301
+         },
+         {
+            "source":"/trava-porta-borracha---marrom",
+            "destination":"/trava-calco-para-porta-de-borracha",
+            "type":301
+         },
+         {
+            "source":"/trava-porta-p-porta-madeira-branco",
+            "destination":"/acessorios-portas-e-janelas-prendedor-de-porta-magntico-minimalista-mixso",
+            "type":301
+         },
+         {
+            "source":"/trava-porta-p-porta-madeira-cromado",
+            "destination":"/acessorios-portas-e-janelas-prendedor-de-porta-magntico-minimalista-mixso",
+            "type":301
+         },
+         {
+            "source":"/trava-porta-p-porta-madeira-ourobrilhante",
+            "destination":"/acessorios-portas-e-janelas-prendedor-de-porta-magntico-minimalista-mixso",
+            "type":301
+         },
+         {
+            "source":"/batedor-porta-madeira-",
+            "destination":"/acessorios-portas-e-janelas-prendedor-de-porta-magntico-minimalista-mixso",
+            "type":301
+         },
+         {
+            "source":"/rodizio-giratorio-em-gel-silicone-transparente-35mm-sem-trava-1",
+            "destination":"/rodizio-giratrio-em-gel-silicone-transparente-35mm-sem-trava",
+            "type":301
+         },
+         {
+            "source":"/suporte-tucano-medio-cromado",
+            "destination":"/suporte-tucano-medio-plastico",
+            "type":301
+         },
+         {
+            "source":"/suporte-tucano-medio-branco",
+            "destination":"/suporte-tucano-medio-branco-regulavel-plastico-engenharia",
+            "type":301
+         },
+         {
+            "source":"/suporte-tucano-medio-preto",
+            "destination":"/suporte-para-prateleira-tucano-medio-preto-em-plastico-abs",
+            "type":301
+         },
+         {
+            "source":"/rodizio-giratorio-em-gel-silicone-transparente-35mm-com-trava",
+            "destination":"/rodizio-giratrio-em-gel-silicone-transparente-35mm-com-trava",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-50cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-50cm-h45",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-40cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-40cm-h45",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-25cm-para-gaveta-ligth-25kg-h35-hardt",
+            "destination":"/corredica-telescopica-25cm",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-45cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-45cm-h45",
+            "type":301
+         },
+         {
+            "source":"/rodizio-50mm-sem-trava-pvc-laranja",
+            "destination":"/rodizio-sem-trava-laranja-50mm",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-30cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-30cm-h45",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-60cm-para-gaveta-ligth-25kg-h35-hardt",
+            "destination":"/corredica-telescopica-60cm",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-25cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-25cm-h45",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-50-cm-para-gaveta-ligth-25kg-h35-hardt",
+            "destination":"/corredica-telescopica-50cm",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-40cm-para-gaveta-ligth-25kg-h35-hardt",
+            "destination":"/corredica-telescopica-40cm",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-60cm-para-gaveta-moveis-37kg-h45-hardt",
+            "destination":"/corredica-telescopica-60cm-h45",
+            "type":301
+         },
+         {
+            "source":"/corredica-telescopica-45cm-para-gaveta-ligth-25kg-h35-hardt",
+            "destination":"/corredica-telescopica-45cm",
+            "type":301
+         },
+         {
+            "source":"/suporte-para-prateleira-mao-francesa",
+            "destination":"/posts/suporte-para-prateleira-mao-francesa",
+            "type":301
+         },
+         {
+            "source":"/compra-online-segura",
+            "destination":"/posts/saiba-como-fazer-suas-compras-online-de-forma-segura",
+            "type":301
+         },
+         {
+            "source":"/reformando-moveis",
+            "destination":"/posts/como-reformar-moveis-antigos-e-usados",
+            "type":301
+         },
+         {
+            "source":"/subindo-de-nivel-com-as-ferramentas-irwin",
+            "destination":"/posts/subindo-de-nivel-com-as-ferramentas-irwin",
+            "type":301
+         },
+         {
+            "source":"/polimento-automotivo-boinas-e-politriz-para-que-servem",
+            "destination":"/posts/polimento-automotivo-boinas-e-politriz-para-que-servem",
+            "type":301
+         },
+         {
+            "source":"/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
+            "destination":"/posts/parafusadeira-boa-stanley-ou-vonder-qual-escolher",
+            "type":301
+         },
+         {
+            "source":"/como-contratar-um-bom-pedreiro",
+            "destination":"/posts/construir-ou-reformar-como-contratar-um-bom-pedreiro",
+            "type":301
+         },
+         {
+            "source":"/disco-de-corte-dicas-de-uso-e-suas-diferenciacoes",
+            "destination":"/posts/discos-de-corte-dicas-de-uso-e-modelos",
+            "type":301
+         },
+         {
+            "source":"/ferragens-qual-o-material-ideal",
+            "destination":"/posts/ferragens-qual-o-material-ideal",
+            "type":301
+         },
+         {
+            "source":"/prateleiras-falando-de-suportes",
+            "destination":"/posts/prateleiras-falando-de-suportes",
+            "type":301
+         },
+         {
+            "source":"/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
+            "destination":"/posts/o-que-preciso-saber-sobre-amortecedores-articuladores-e-pistao-a-gas",
+            "type":301
+         },
+         {
+            "source":"/repaginando-a-casa-acessorios-para-banheiro",
+            "destination":"/posts/repaginando-a-casa-acessorios-para-banheiro",
+            "type":301
+         },
+         {
+            "source":"/principais-ferramentas-para-casa",
+            "destination":"/posts/principais-ferramentas-para-casa",
+            "type":301
+         },
+         {
+            "source":"/acessibilidade-ergonomia",
+            "destination":"/posts/acessibilidade-e-ergonomia-como-incluir-em-nosso-dia-a-dia",
+            "type":301
+         },
+         {
+            "source":"/dicas-de-instalacao-mola-aerea",
+            "destination":"/posts/dicas-de-instalacao-mola-aerea",
+            "type":301
+         },
+         {
+            "source":"/mao-francesa-inspiracoes-para-o-seu-diy",
+            "destination":"/posts/mao-francesa-inspiracoes-para-o-seu-diy",
+            "type":301
+         },
+         {
+            "source":"/rodinhas-e-rodizios-para-moveis",
+            "destination":"/posts/rodinhas-e-rodizios-para-moveis-escolha-o-modelo-ideal",
+            "type":301
+         },
+         {
+            "source":"/prendedor-de-porta",
+            "destination":"/posts/prendedor-fixador-e-batedor-de-porta-qual-escolher",
+            "type":301
+         },
+         {
+            "source":"/a-maleta-de-ferramentas-ideal-para-voce",
+            "destination":"/posts/caixa-e-maletas-organizadoras-vonder-qual-escolher",
+            "type":301
+         },
+         {
+            "source":"/saiba-como-utilizar-sua-parafusadeira",
+            "destination":"/posts/parafusadeira-e-furadeira-de-impacto-saiba-como-usar",
+            "type":301
+         },
+         {
+            "source":"/fita-adesiva-antiderrapante-dicas-beneficios",
+            "destination":"/posts/fita-adesiva-antiderrapante-dicas-e-beneficios",
+            "type":301
+         },
+         {
+            "source":"/como-escolher-o-suporte-perfeito-para-sua-prateleira-de-vidro",
+            "destination":"/posts/como-escolher-seu-suporte-para-vidro",
+            "type":301
+         },
+         {
+            "source":"/conheca-um-pouco-sobre-a-vonder",
+            "destination":"/posts/conheca-um-pouco-sobre-a-vonder",
+            "type":301
+         },
+         {
+            "source":"/quem-somos",
+            "destination":"/pages/sobre-nos",
+            "type":301
+         },
+         {
+            "source":"/devolucao",
+            "destination":"/pages/trocas",
+            "type":301
+         },
+         {
+            "source":"/compre-e-retire-na-loja",
+            "destination":"/pages/faq",
+            "type":301
+         },
+         {
+            "source":"/politica-de-entrega-de-produtos",
+            "destination":"/pages/entrega",
+            "type":301
+         },
+         {
+            "source":"/politicas-de-privacidade",
+            "destination":"/pages/privacidade",
+            "type":301
+         },
+         {
+            "source":"url inativa no dooca",
+            "destination":"/pages/termos",
+            "type":301
+         },
+         {
+            "source":"/politica-de-qualidade-desicon-ferragens",
+            "destination":"/pages/politica-de-qualidade",
+            "type":301
+         },
+         {
+            "source":"/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
+            "destination":"/tampo-1200mm-vidro-8mm-temperado-incolor-redondo-diametro",
+            "type":301
+         },
+         {
+            "source":"/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro/incolor",
+            "destination":"/tampo-1000mm-vidro-8mm-temperado-incolor-redondo-diametro",
+            "type":301
+         },
+         {
+            "source":"/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm/incolor",
+            "destination":"/tampo-vidro-8mm-temperado-incolor-redondo-diametro-900mm",
+            "type":301
+         },
+         {
+            "source":"/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm/incolor",
+            "destination":"/tampo-vidro-8mm-temperado-incolor-redondo-diametro-700mm",
+            "type":301
+         },
+         {
+            "source":"/prumo-cilindrico",
+            "destination":"/prumo-de-centro",
+            "type":301
+         },
+         {
+            "source":"/prumo-cilindrico-c588",
+            "destination":"/prumo-de-centro",
+            "type":301
+         },
+         {
+            "source":"/stanley",
+            "destination":"/stanley-ferramentas",
+            "type":301
+         },
+         {
+            "source":"/prateleira",
+            "destination":"/prateleiras",
+            "type":301
+         },
+         {
+            "source":"/botao-frances-espelhos-plastico",
+            "destination":"/botao-frances-abs-metalizado",
+            "type":301
+         },
+         {
+            "source":"/mb_ferragens",
+            "destination":"/",
+            "type":301
+         },
+         {
+            "source":"/manluplast",
+            "destination":"/",
+            "type":301
+         },
+         {
+            "source":"/fortezza",
+            "destination":"/",
+            "type":301
+         },
+         {
+            "source":"/power-ved",
+            "destination":"/marca/powerved-vedacao-para-os-melhores-profissionais",
+            "type":301
+         },
+         {
+            "source":"/serra-tico-tico-1",
+            "destination":"/serra-tico-tico",
+            "type":301
+         },
+         {
+            "source":"/brocas-1",
+            "destination":"/brocas-e-fresas",
+            "type":301
+         },
+         {
+            "source":"/batedor-bola-de-borracha-para-porta-batente-amortecedor-sfor",
+            "destination":"/seguranca-portas-e-janelas-batedor-de-porta-bola-borracha",
+            "type":301
+         },
+         {
+            "source":"/cadastro",
+            "destination":"/",
+            "type":301
+         },
+         {
+            "source":"/produtos",
+            "destination":"/",
+            "type":301
+         },
+         {
+            "source":"/bateria-gopak-12v",
+            "destination":"/kit-ferramentas-5x1-black-decker",
+            "type":301
+         },
+         {
+            "source":"/sapata-de-silicone",
+            "destination":"/sapata-de-silicone-18mm-com-arruela-de-reforco-para-moveis",
+            "type":301
+         },
+         {
+            "source":"/100-cantoneira-preta-13x13",
+            "destination":"/acessorios-para-moveis/cantoneira-13x13-preta",
+            "type":301
+         },
+         {
+            "source":"/cantoneira-preta-13x13",
+            "destination":"/acessorios-para-moveis/cantoneira-13x13-preta",
+            "type":301
+         },
+         {
+            "source":"/100-suporte-cantoneira-niquelada",
+            "destination":"/acessorios-para-moveis/suporte-cantoneira-niquelada",
+            "type":301
+         },
+         {
+            "source":"/botao-frances-abs-metalizado",
+            "destination":"/botao-frances-abs-metalizado-espelho",
+            "type":301
+         },
+         {
+            "source":"/cantoneira-13x13-branca",
+            "destination":"/acessorios-para-moveis/cantoneira-13x13-branca",
+            "type":301
+         }
+      ],
+      "public":"dist",
+      "ignore":[
+         "firebase.json",
+         "**/.*",
+         "**/node_modules/**"
+      ],
+      "rewrites":[
+         {
+            "source":"**/!(*(*.)js|*(*.)css|*(*.)ico|*(*.)png|*(*.)gif|*(*.)jpg|*(*.)jpeg|*(*.)webp|*(*.)svg|*(*.)woff|*(*.)woff2|*(*.)otf|*(*.)ttf|*(*.)eot)",
+            "function":"ssr"
+         },
+         {
+            "source":"/storefront.?*.js",
+            "destination":"/storefront.js"
+         },
+         {
+            "source":"/storefront.?*.css",
+            "destination":"/storefront.css"
+         },
+         {
+            "source":"/checkout.?*.js",
+            "destination":"/checkout.js"
+         },
+         {
+            "source":"/checkout.?*.css",
+            "destination":"/checkout.css"
+         }
+      ],
+      "headers":[
+         {
+            "source":"/",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=30, must-revalidate"
+               }
+            ]
+         },
+         {
+            "source":"/img/**",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=300, s-maxage=60, must-revalidate"
+               }
+            ]
+         },
+         {
+            "source":"/assets/**",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=86400, s-maxage=600"
+               }
+            ]
+         },
+         {
+            "source":"/chunk.?*.*",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=31536000"
+               }
+            ]
+         },
+         {
+            "source":"/app/**",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=300, stale-while-revalidate=900"
+               }
+            ]
+         },
+         {
+            "source":"/@(storefront|checkout).@(js|css)",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=0, must-revalidate"
+               }
+            ]
+         },
+         {
+            "source":"**/*.?????*.@(js|css)",
+            "headers":[
+               {
+                  "key":"cache-control",
+                  "value":"public, max-age=31536000"
+               }
+            ]
+         }
+      ],
+      "cleanUrls":true
+   },
+   "functions":{
+      "predeploy":[
+         "cp -r template .functions/; rm -rf .functions/template/public; rm -rf .functions/template/scss",
+         "cp -r content .functions/; cp .*.json .functions/",
+         "mkdir -p .functions/template/pages/@ecomplus/storefront-template/template",
+         "cp -r node_modules/@ecomplus/widget-* .functions/template/pages/@ecomplus/ 2>/dev/null || :",
+         "cp -r node_modules/@ecomplus/storefront-template/template/pages .functions/template/pages/@ecomplus/storefront-template/template/ || :",
+         "rm -rf .functions/template/pages/**/node_modules"
+      ],
+      "postdeploy":"rm -rf .functions/template; rm -rf .functions/content; rm -rf .functions/.*.json",
+      "source":".functions"
+   }
 }
