@@ -7,6 +7,17 @@
             "type":301
          },
          {
+            "source": "/glassparts",
+            "destination": "/", 
+            "type": 301 
+
+         },
+         {
+         "source": "/gds",
+         "destination": "/", 
+         "type": 301
+         }
+         {
             "source":"/trava-porta-borracha---cinza",
             "destination":"/trava-calco-para-porta-de-borracha",
             "type":301
