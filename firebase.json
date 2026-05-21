@@ -16,7 +16,7 @@
          "source": "/gds",
          "destination": "/", 
          "type": 301
-         }
+         },
          {
             "source":"/trava-porta-borracha---cinza",
             "destination":"/trava-calco-para-porta-de-borracha",
