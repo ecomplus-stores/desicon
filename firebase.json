@@ -13,9 +13,14 @@
 
          },
          {
-         "source": "/gds",
-         "destination": "/", 
-         "type": 301
+             "source": "/cola-ultravioleta-uv-vv-e-vm",
+             "destination": "/marca/cola-loxeal-uv-para-vidro", 
+             "type": 301 
+         }
+         {
+             "source": "/gds",
+             "destination": "/", 
+             "type": 301
          },
          {
             "source":"/trava-porta-borracha---cinza",
