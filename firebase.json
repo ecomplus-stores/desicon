@@ -16,7 +16,7 @@
              "source": "/cola-ultravioleta-uv-vv-e-vm",
              "destination": "/marca/cola-loxeal-uv-para-vidro", 
              "type": 301 
-         }
+         },
          {
              "source": "/gds",
              "destination": "/", 
