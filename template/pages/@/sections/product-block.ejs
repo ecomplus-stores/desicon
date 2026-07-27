@@ -91,7 +91,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
               <% if (_.state.brands && _.state.brands[0]) { %>
                 <div class="row align-items-center mb-3 d-flex brand-row d-block d-md-none">
                   <div class="col-md-3 col-4">
-                    <a href="<%= _.state.brands[0].slug %>">
+                    <a href="/<%= _.state.brands[0].slug %>">
                       <div class="brand-box">
                       <% if (_.state.brands[0].logo && _.state.brands[0].logo.url) { %>
                         <img src="<%= _.state.brands[0].logo.url %>" alt="<%= _.state.brands[0].name %>" class="img-fluid">
@@ -104,7 +104,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
                     </a>                  
                   </div>                    
                   <div class="col">
-                    <a href="<%= _.state.brands[0].slug %>"><span>Veja outros produtos <span class="d-block text-underline"><%= _.state.brands[0].name %></span></span></a>
+                    <a href="/<%= _.state.brands[0].slug %>"><span>Veja outros produtos <span class="d-block text-underline"><%= _.state.brands[0].name %></span></span></a>
                   </div>
                 </div>
               <% } %>      
@@ -210,7 +210,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
               <% if (_.state.brands && _.state.brands[0]) { %>
                 <div class="row align-items-center mb-3  brand-row d-none d-md-flex">
                   <div class="col-md-4 col-4">
-                    <a href="<%= _.state.brands[0].slug %>">
+                    <a href="/<%= _.state.brands[0].slug %>">
                       <div class="brand-box">
                       <% if (_.state.brands[0].logo && _.state.brands[0].logo.url) { %>
                         <img src="<%= _.state.brands[0].logo.url %>" alt="<%= _.state.brands[0].name %>" class="img-fluid">
@@ -223,7 +223,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
                     </a>                  
                   </div>                    
                   <div class="col">
-                    <a href="<%= _.state.brands[0].slug %>"><span>Veja outros produtos <span class="d-block text-underline"><%= _.state.brands[0].name %></span></span></a>
+                    <a href="/<%= _.state.brands[0].slug %>"><span>Veja outros produtos <span class="d-block text-underline"><%= _.state.brands[0].name %></span></span></a>
                   </div>
                 </div>
               <% } %>   
