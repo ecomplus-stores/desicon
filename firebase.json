@@ -421,6 +421,51 @@
             "source":"/cantoneira-13x13-branca",
             "destination":"/acessorios-para-moveis/cantoneira-13x13-branca",
             "type":301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-50cm-cinza-para-tampo-de-mesa",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-para-tampo-de-mesa-50cm-branco",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-50cm-preto-para-tampo-de-mesa",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-para-tampo-de-mesa-41cm-cinza",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-para-tampo-de-mesa-30cm-cinza",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-41cm-para-tampo-de-mesa-branco",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-para-tampo-de-mesa-30cm-preto",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-41cm-preto-para-tampo-de-mesa",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
+         },
+         {
+            "source": "/mao-francesa-dobravel-desicon-30cm-branco-para-tampo-de-mesa",
+            "destination": "/suportes-maos-francesa-dobravel",
+            "type": 301
          }
       ],
       "public":"dist",
