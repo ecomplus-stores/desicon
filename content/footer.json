@@ -19,7 +19,7 @@
     "list": []
   },
   "contacts": {
-    "title": "Contatos",
+    "title": "Contatos ",
     "phone_wpp": true,
     "socials": true,
     "email": true,
