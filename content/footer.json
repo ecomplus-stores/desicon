@@ -28,12 +28,13 @@
   "stamps": [
     {
       "src": "/img/uploads/ssl-securety.avif",
-      "alt": "secure connection "
+      "alt": "secure connection ",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.desicon.com.br%2F"
     },
     {
       "src": "/img/uploads/avaliacao-mercado-livre.avif",
-      "alt": "safe browsing",
-      "link": "https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.desicon.com.br%2F"
+      "alt": "Reputação Mercado Livre",
+      "link": "https://www.mercadolivre.com.br/loja/desicon?item_id=MLB946262896&category_id=MLB1574&official_store_id=79278&client=recoview-selleritems&recos_listing=true"
     },
     {
       "src": "/img/uploads/ebit-em-avaliacao.avif",
