@@ -466,6 +466,26 @@
             "source": "/mao-francesa-dobravel-desicon-30cm-branco-para-tampo-de-mesa",
             "destination": "/suportes-maos-francesa-dobravel",
             "type": 301
+         },
+         {
+            "source": "/suporte-fenix-branco",
+            "destination": "/suportes-prateleiras-suporte-fenix-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-fenix",
+            "destination": "/suportes-prateleiras-suporte-fenix-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-fenix-cinza",
+            "destination": "/suportes-prateleiras-suporte-fenix-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-fenix-prateleira",
+            "destination": "/suportes-prateleiras-suporte-fenix-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
          }
       ],
       "public":"dist",
