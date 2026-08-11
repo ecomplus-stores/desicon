@@ -486,6 +486,131 @@
             "source": "/suporte-fenix-prateleira",
             "destination": "/suportes-prateleiras-suporte-fenix-para-prateleira-de-vidro-madeira-mixso",
             "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-plastico",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/branco",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/cinza-fosco",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/preto",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-regulavel-tucano-grande-branco-plastico-engenharia",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande-plastico",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-regulavel-tucano-grande-preto-em-plastico-engenharia",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/azul",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/bronze",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/dourado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/rosa",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande/rose",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-para-prateleira-tucano-medio-preto-em-plastico-abs",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-branco-regulavel-plastico-engenharia",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-bronze",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-rosa",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-dourado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-azul",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-cinza",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-medio-30kg",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-grande",
+            "destination": "/suporte-para-prateleira-suporte-tucano-para-prateleira-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/tucano-grande-cromado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-em-metal-premium-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/tucano-medio-cromado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-em-metal-premium-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-mini-cromado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-em-metal-premium-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-pequeno-cromado",
+            "destination": "/suporte-para-prateleira-suporte-tucano-em-metal-premium-para-prateleira-de-vidro-madeira-mixso",
+            "type": 301
          }
       ],
       "public":"dist",
