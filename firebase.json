@@ -611,6 +611,116 @@
             "source": "/suporte-tucano-pequeno-cromado",
             "destination": "/suporte-para-prateleira-suporte-tucano-em-metal-premium-para-prateleira-de-vidro-madeira-mixso",
             "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-8mm-branco-gelo",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-8mm-preto",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-8mm-cinza",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-bico-tucano-fixo-8mm-cromado",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-plastico-branco-gelo-6mm",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-6mm-cromado",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-bico-de-tucano-fixo-plastico-preto-6mm",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-bico-de-tucano-fixo-cinza-6mm",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-vidro-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-15mm-para-prateleira-madeira-plastico-preto",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-15mm-para-prateleira-madeira-plastico-cinza",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-15mm-para-prateleira-madeira-plastico-cromado",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-tucano-fixo-15mm-prateleira-madeira-plastico-branco-gelo",
+            "destination": "/suportes-para-prateleira-suporte-clip-fixo-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-para-prateleira/suporte-tucano-fixo-eco-15mm-preto",
+            "destination": "/suporte-para-prateleira-suporte-tucano-eco-para-prateleira-de-madeira-multivisao",
+            "type": 301
+         },
+         {
+            "source": "/suporte-para-prateleira/suporte-tucano-fixo-eco-15mm-branco",
+            "destination": "/suporte-para-prateleira-suporte-tucano-eco-para-prateleira-de-madeira-multivisao",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-preto-30-x-35",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-preto-15-x-20",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-preto-25-x-30",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-preto-20-x-25",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-branco-30-x-35",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-branco-25-x-30",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-branco-20-x-25",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
+         },
+         {
+            "source": "/suporte-l-branco-15-x-20",
+            "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
+            "type": 301
          }
       ],
       "public":"dist",
