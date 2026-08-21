@@ -721,6 +721,36 @@
             "source": "/suporte-l-branco-15-x-20",
             "destination": "/suporte-para-prateleira-suporte-cantoneira-l-para-prateleira-de-madeira-mixso",
             "type": 301
+         },
+         {
+            "source": "/conector-eletrico-wago",
+            "destination": "/materiais-eletricos-e-acessorios-conector-de-fios-para-emenda-e-juncao-221-wago",
+            "type": 301
+         },
+         {
+            "source": "/conector-de-juncao-wago",
+            "destination": "/materiais-eletricos-e-acessorios-conector-de-fios-para-emenda-e-juncao-221-wago",
+            "type": 301
+         },
+         {
+            "source": "/conector-de-juncao-fios",
+            "destination": "/materiais-eletricos-e-acessorios-conector-de-fios-para-emenda-e-juncao-221-wago",
+            "type": 301
+         },
+         {
+            "source": "/conector-de-emenda",
+            "destination": "/materiais-eletricos-e-acessorios-conector-de-fios-para-emenda-e-juncao-221-wago",
+            "type": 301
+         },
+         {
+            "source": "/pu40-preto-adesivo-de-poliuretano-350g-power-ved-vedacao",
+            "destination": "/cola-pu40-cola-pu40-selante-profissional-powerved",
+            "type": 301
+         },
+         {
+            "source": "/adesivo-poliuretano-pu40-branco-power-ved-vedacao-fixacao",
+            "destination": "/cola-pu40-cola-pu40-selante-profissional-powerved",
+            "type": 301
          }
       ],
       "public":"dist",
