@@ -796,6 +796,10 @@
       ],
       "rewrites":[
          {
+            "source":"/api/upload-doc",
+            "function":"uploadDoc"
+         },
+         {
             "source":"**/!(*(*.)js|*(*.)css|*(*.)ico|*(*.)png|*(*.)gif|*(*.)jpg|*(*.)jpeg|*(*.)webp|*(*.)svg|*(*.)woff|*(*.)woff2|*(*.)otf|*(*.)ttf|*(*.)eot)",
             "function":"ssr"
          },
@@ -882,6 +886,9 @@
          }
       ],
       "cleanUrls":true
+   },
+   "storage":{
+      "rules":"storage.rules"
    },
    "functions":{
       "predeploy":[

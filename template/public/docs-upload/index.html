@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Documentos de Produto — Desicon</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #fbfaf8;
+    --surface-2: #f4f1ea;
+    --border: #e6e1d9;
+    --text: #24211d;
+    --text-muted: #6b6459;
+    --brand: #f39422;
+    --brand-ink: #7a4a0d;
+    --brand-2: #007eb8;
+    --ok: #2f8a4e;
+    --ok-bg: #e9f6ee;
+    --err: #c0392b;
+    --err-bg: #fbe9e7;
+    --shadow: 0 1px 2px rgba(36,33,29,.06), 0 12px 32px rgba(36,33,29,.08);
+    --sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--surface-2); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+
+  .page-header { display: flex; align-items: center; gap: .75rem; padding: 1rem 1.5rem; background: var(--bg); border-bottom: 3px solid var(--brand); }
+  .page-header .logo { font-weight: 800; font-size: 1.1rem; color: var(--brand-2); }
+  .page-header .divider { width: 1px; height: 24px; background: var(--border); }
+  .page-header .title { font-size: .95rem; font-weight: 700; }
+  .page-header .subtitle { font-size: .78rem; color: var(--text-muted); }
+
+  .stage { max-width: 480px; margin: 3rem auto; padding: 0 1.25rem 3rem; }
+  .card { background: var(--bg); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 2rem; }
+
+  .steps { display: flex; align-items: center; gap: .35rem; margin-bottom: 1.75rem; font-size: .72rem; font-weight: 700; color: var(--text-muted); }
+  .steps .dot { width: 1.4rem; height: 1.4rem; flex: none; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--surface-2); color: var(--text-muted); font-size: .68rem; }
+  .steps .dot.is-done { background: var(--ok-bg); color: var(--ok); }
+  .steps .dot.is-active { background: var(--brand); color: #21140a; }
+  .steps .bar { flex: 1; height: 2px; background: var(--border); }
+  .steps .bar.is-done { background: var(--ok); }
+
+  h1.card-title { font-size: 1.25rem; margin: 0 0 .3rem; }
+  p.card-hint { font-size: .86rem; color: var(--text-muted); margin: 0 0 1.6rem; line-height: 1.5; }
+
+  label.field-label { display: block; font-size: .78rem; font-weight: 700; margin: 0 0 .4rem; }
+  .field-group { margin-bottom: 1.3rem; }
+
+  input[type="password"], input[type="text"], input[type="search"] {
+    width: 100%; font-family: var(--sans); font-size: .92rem; padding: .7rem .85rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text);
+  }
+  input:focus { outline: 2px solid var(--brand-2); outline-offset: 1px; border-color: var(--brand-2); }
+
+  .pill-group { display: flex; gap: .6rem; }
+  .pill { flex: 1; text-align: center; padding: .65rem .5rem; border: 1.5px solid var(--border); border-radius: 8px; font-size: .84rem; font-weight: 600; color: var(--text-muted); cursor: pointer; background: var(--surface); }
+  .pill.is-selected { border-color: var(--brand); background: var(--ok-bg); color: var(--brand-ink); }
+
+  .result-list { margin-top: .7rem; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .result-row { display: flex; align-items: center; gap: .7rem; padding: .7rem .8rem; cursor: pointer; border-bottom: 1px solid var(--border); background: var(--bg); }
+  .result-row:last-child { border-bottom: none; }
+  .result-row:hover { background: var(--surface); }
+  .result-row .name { font-size: .84rem; font-weight: 600; }
+  .result-row .sku { font-size: .74rem; color: var(--text-muted); }
+  .result-empty, .result-hint { padding: .8rem; font-size: .82rem; color: var(--text-muted); }
+
+  .selected-product { display: flex; align-items: center; gap: .7rem; padding: .75rem .9rem; border: 1.5px solid var(--brand); background: var(--ok-bg); border-radius: 10px; margin-bottom: 1.4rem; }
+  .selected-product .name { font-size: .87rem; font-weight: 700; }
+  .selected-product .sku { font-size: .74rem; color: var(--text-muted); }
+  .selected-product .change-btn { margin-left: auto; flex: none; background: transparent; border: none; color: var(--brand-ink); font-size: .76rem; font-weight: 700; cursor: pointer; text-decoration: underline; }
+
+  .dropzone { border: 1.5px dashed var(--border); border-radius: 10px; padding: 1.6rem 1rem; text-align: center; background: var(--surface); cursor: pointer; }
+  .dropzone:hover, .dropzone.is-drag { border-color: var(--brand-2); background: var(--ok-bg); }
+  .dropzone .dz-label { font-size: .85rem; font-weight: 600; }
+  .dropzone .dz-hint { font-size: .74rem; color: var(--text-muted); margin-top: .2rem; }
+  .dropzone.has-file { border-color: var(--ok); background: var(--ok-bg); }
+  .dropzone .dz-file { display: none; align-items: center; justify-content: center; gap: .5rem; font-size: .86rem; font-weight: 600; }
+  .dropzone.has-file .dz-file { display: flex; }
+  .dropzone.has-file .dz-empty { display: none; }
+
+  .btn-primary { width: 100%; background: var(--brand); color: #211202; border: none; font-weight: 700; font-size: .92rem; padding: .85rem 1rem; border-radius: 9px; cursor: pointer; margin-top: .4rem; }
+  .btn-primary:disabled { opacity: .45; cursor: not-allowed; }
+  .btn-primary.is-loading { color: transparent; position: relative; }
+  .btn-primary.is-loading::after { content: ""; position: absolute; inset: 0; margin: auto; width: 18px; height: 18px; border: 2.5px solid rgba(33,18,2,.35); border-top-color: #211202; border-radius: 50%; animation: spin .7s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .btn-ghost { width: 100%; background: transparent; color: var(--text-muted); border: none; font-size: .82rem; font-weight: 600; padding: .6rem; cursor: pointer; margin-top: .3rem; }
+  .btn-ghost:hover { color: var(--text); }
+
+  .success-icon { width: 3rem; height: 3rem; border-radius: 50%; background: var(--ok-bg); color: var(--ok); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+  .success-product { text-align: center; font-size: .88rem; margin: 0 0 1.4rem; }
+  .success-product .name { font-weight: 700; }
+  .success-product .sku { color: var(--text-muted); font-size: .78rem; }
+
+  .url-label { font-size: .78rem; font-weight: 700; margin: 0 0 .4rem; }
+  .url-box { display: flex; gap: .5rem; margin-bottom: .4rem; }
+  .url-box input { font-family: var(--mono); font-size: .78rem; }
+  .btn-copy { flex: none; background: var(--surface); border: 1.5px solid var(--border); color: var(--text); font-size: .8rem; font-weight: 700; padding: 0 .9rem; border-radius: 8px; cursor: pointer; }
+  .btn-copy.is-copied { border-color: var(--ok); color: var(--ok); background: var(--ok-bg); }
+
+  .error-box { background: var(--err-bg); color: var(--err); border: 1px solid var(--err); border-radius: 8px; padding: .7rem .9rem; font-size: .82rem; margin-bottom: 1rem; }
+  .center { text-align: center; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <span class="logo">desicon</span>
+  <div class="divider"></div>
+  <div>
+    <div class="title">Documentos de Produto</div>
+    <div class="subtitle">Ferramenta interna — não é parte da loja pública</div>
+  </div>
+</header>
+
+<div class="stage">
+
+  <div class="card" id="screen-login">
+    <div class="steps">
+      <span class="dot is-active">1</span><span class="bar"></span>
+      <span class="dot">2</span><span class="bar"></span>
+      <span class="dot">3</span>
+    </div>
+    <h1 class="card-title">Entrar</h1>
+    <p class="card-hint">Acesso restrito à equipe da loja.</p>
+    <div class="error-box hidden" id="login-error"></div>
+    <div class="field-group">
+      <label class="field-label" for="pw">Senha</label>
+      <input type="password" id="pw" placeholder="••••••••">
+    </div>
+    <button class="btn-primary" id="btn-login">Entrar</button>
+  </div>
+
+  <div class="card hidden" id="screen-search">
+    <div class="steps">
+      <span class="dot is-done">✓</span><span class="bar is-done"></span>
+      <span class="dot is-active">2</span><span class="bar"></span>
+      <span class="dot">3</span>
+    </div>
+    <h1 class="card-title">Buscar produto</h1>
+    <p class="card-hint">Digite o nome do produto que vai receber o documento.</p>
+    <div class="field-group">
+      <input type="search" id="search-input" placeholder="ex: adesivo, cola, silicone...">
+    </div>
+    <div class="result-list" id="result-list">
+      <div class="result-hint">Digite ao menos 3 letras para buscar.</div>
+    </div>
+  </div>
+
+  <div class="card hidden" id="screen-form">
+    <div class="steps">
+      <span class="dot is-done">✓</span><span class="bar is-done"></span>
+      <span class="dot is-done">✓</span><span class="bar is-done"></span>
+      <span class="dot is-active">3</span>
+    </div>
+    <h1 class="card-title">Enviar documento</h1>
+    <p class="card-hint">O documento será vinculado direto a este produto.</p>
+
+    <div class="selected-product">
+      <div class="info">
+        <div class="name" id="selected-name"></div>
+        <div class="sku" id="selected-sku"></div>
+      </div>
+      <button class="change-btn" id="btn-change-product">trocar</button>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Tipo de documento</label>
+      <div class="pill-group">
+        <div class="pill is-selected" data-doc-type="fds">FDS</div>
+        <div class="pill" data-doc-type="ficha_tecnica">Ficha Técnica</div>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label">Arquivo PDF</label>
+      <div class="dropzone" id="dropzone">
+        <input type="file" id="file-input" accept="application/pdf" class="hidden">
+        <div class="dz-empty">
+          <div class="dz-label">Clique para escolher ou arraste o PDF aqui</div>
+          <div class="dz-hint">Apenas arquivos .pdf, até 15MB</div>
+        </div>
+        <div class="dz-file">
+          <span id="dz-filename"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="error-box hidden" id="upload-error"></div>
+    <button class="btn-primary" id="btn-upload" disabled>Enviar e vincular ao produto</button>
+    <button class="btn-ghost" id="btn-back-search">Voltar</button>
+  </div>
+
+  <div class="card hidden" id="screen-success">
+    <div class="steps">
+      <span class="dot is-done">✓</span><span class="bar is-done"></span>
+      <span class="dot is-done">✓</span><span class="bar is-done"></span>
+      <span class="dot is-done">✓</span>
+    </div>
+    <div class="success-icon">✓</div>
+    <h1 class="card-title center">Documento vinculado</h1>
+    <p class="success-product center">
+      <span class="name" id="success-name"></span><br>
+      <span class="sku" id="success-sku"></span>
+    </p>
+
+    <div class="url-label">Link do documento</div>
+    <div class="url-box">
+      <input type="text" id="result-url" readonly value="">
+      <button class="btn-copy" id="btn-copy">Copiar</button>
+    </div>
+
+    <button class="btn-ghost" id="btn-another">Enviar outro documento</button>
+  </div>
+
+</div>
+
+<script>
+  (function () {
+    var STORE_ID = 51372;
+    var STORE_API = 'https://api.e-com.plus/v1';
+
+    var screens = {
+      login: document.getElementById('screen-login'),
+      search: document.getElementById('screen-search'),
+      form: document.getElementById('screen-form'),
+      success: document.getElementById('screen-success')
+    };
+    function show(name) {
+      Object.keys(screens).forEach(function (k) { screens[k].classList.add('hidden'); });
+      screens[name].classList.remove('hidden');
+    }
+
+    var password = null;
+    var selectedProduct = null;
+    var selectedType = 'fds';
+    var selectedFile = null;
+
+    // --- login ---
+    document.getElementById('btn-login').addEventListener('click', function () {
+      var pw = document.getElementById('pw').value;
+      if (!pw) return;
+      password = pw;
+      document.getElementById('login-error').classList.add('hidden');
+      show('search');
+    });
+
+    // --- search ---
+    var resultList = document.getElementById('result-list');
+    var searchTimer = null;
+
+    function renderResults(items) {
+      if (!items.length) {
+        resultList.innerHTML = '<div class="result-empty">Nenhum produto encontrado.</div>';
+        return;
+      }
+      resultList.innerHTML = items.map(function (p, i) {
+        return '<div class="result-row" data-index="' + i + '">' +
+          '<div class="info"><div class="name">' + p.name + '</div><div class="sku">SKU ' + (p.sku || '—') + '</div></div>' +
+          '</div>';
+      }).join('');
+      Array.prototype.forEach.call(resultList.querySelectorAll('.result-row'), function (row) {
+        row.addEventListener('click', function () {
+          var p = items[Number(row.getAttribute('data-index'))];
+          selectedProduct = p;
+          document.getElementById('selected-name').textContent = p.name;
+          document.getElementById('selected-sku').textContent = 'SKU ' + (p.sku || '—');
+          show('form');
+        });
+      });
+    }
+
+    document.getElementById('search-input').addEventListener('input', function (e) {
+      var term = e.target.value.trim();
+      clearTimeout(searchTimer);
+      if (term.length < 3) {
+        resultList.innerHTML = '<div class="result-hint">Digite ao menos 3 letras para buscar.</div>';
+        return;
+      }
+      resultList.innerHTML = '<div class="result-hint">Buscando...</div>';
+      searchTimer = setTimeout(function () {
+        var url = STORE_API + '/products.json?store_id=' + STORE_ID +
+          '&fields=_id,slug,sku,name&name=' + encodeURIComponent(term) + '&limit=8';
+        fetch(url, { headers: { 'X-Store-ID': STORE_ID } })
+          .then(function (r) { return r.json(); })
+          .then(function (data) { renderResults(data.result || []); })
+          .catch(function () {
+            resultList.innerHTML = '<div class="result-empty">Erro ao buscar produtos. Tente novamente.</div>';
+          });
+      }, 400);
+    });
+
+    document.getElementById('btn-change-product').addEventListener('click', function () { show('search'); });
+    document.getElementById('btn-back-search').addEventListener('click', function () { show('search'); });
+
+    // --- doc type + file ---
+    var pills = document.querySelectorAll('.pill');
+    pills.forEach(function (pill) {
+      pill.addEventListener('click', function () {
+        pills.forEach(function (p) { p.classList.remove('is-selected'); });
+        pill.classList.add('is-selected');
+        selectedType = pill.getAttribute('data-doc-type');
+      });
+    });
+
+    var dropzone = document.getElementById('dropzone');
+    var fileInput = document.getElementById('file-input');
+    var dzFilename = document.getElementById('dz-filename');
+    var btnUpload = document.getElementById('btn-upload');
+
+    function setFile(file) {
+      if (!file || file.type !== 'application/pdf') {
+        document.getElementById('upload-error').textContent = 'Selecione um arquivo PDF válido.';
+        document.getElementById('upload-error').classList.remove('hidden');
+        return;
+      }
+      document.getElementById('upload-error').classList.add('hidden');
+      selectedFile = file;
+      dropzone.classList.add('has-file');
+      dzFilename.textContent = file.name;
+      btnUpload.disabled = false;
+    }
+
+    dropzone.addEventListener('click', function () { fileInput.click(); });
+    fileInput.addEventListener('change', function (e) { setFile(e.target.files[0]); });
+    dropzone.addEventListener('dragover', function (e) { e.preventDefault(); dropzone.classList.add('is-drag'); });
+    dropzone.addEventListener('dragleave', function (e) { e.preventDefault(); dropzone.classList.remove('is-drag'); });
+    dropzone.addEventListener('drop', function (e) {
+      e.preventDefault();
+      dropzone.classList.remove('is-drag');
+      if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]);
+    });
+
+    // --- upload ---
+    btnUpload.addEventListener('click', function () {
+      if (!selectedProduct || !selectedFile) return;
+      var errorBox = document.getElementById('upload-error');
+      errorBox.classList.add('hidden');
+      btnUpload.classList.add('is-loading');
+      btnUpload.disabled = true;
+
+      var formData = new FormData();
+      formData.append('productId', selectedProduct._id);
+      formData.append('docType', selectedType);
+      formData.append('file', selectedFile);
+
+      fetch('/api/upload-doc', {
+        method: 'POST',
+        headers: { Authorization: 'Bearer ' + password },
+        body: formData
+      })
+        .then(function (r) {
+          return r.json().then(function (data) { return { ok: r.ok, data: data }; });
+        })
+        .then(function (result) {
+          btnUpload.classList.remove('is-loading');
+          btnUpload.disabled = false;
+          if (!result.ok) {
+            if (result.data && result.data.error === 'senha inválida') {
+              password = null;
+              show('login');
+              document.getElementById('login-error').textContent = 'Senha inválida.';
+              document.getElementById('login-error').classList.remove('hidden');
+              return;
+            }
+            errorBox.textContent = (result.data && result.data.error) || 'Erro ao enviar o documento.';
+            errorBox.classList.remove('hidden');
+            return;
+          }
+
+          document.getElementById('success-name').textContent = selectedProduct.name;
+          document.getElementById('success-sku').textContent = 'SKU ' + (selectedProduct.sku || '—');
+
+          var routePrefix = selectedType === 'fds' ? 'fds' : 'fichastecnicas';
+          var publicUrl = window.location.origin + '/' + routePrefix + '/' + selectedProduct.slug;
+          document.getElementById('result-url').value = publicUrl;
+
+          selectedFile = null;
+          btnUpload.disabled = true;
+          dropzone.classList.remove('has-file');
+          show('success');
+        })
+        .catch(function () {
+          btnUpload.classList.remove('is-loading');
+          btnUpload.disabled = false;
+          errorBox.textContent = 'Erro de conexão. Tente novamente.';
+          errorBox.classList.remove('hidden');
+        });
+    });
+
+    document.getElementById('btn-copy').addEventListener('click', function () {
+      var input = document.getElementById('result-url');
+      input.select();
+      try { navigator.clipboard.writeText(input.value); } catch (e) {}
+      var btn = document.getElementById('btn-copy');
+      btn.textContent = 'Copiado';
+      btn.classList.add('is-copied');
+      setTimeout(function () { btn.textContent = 'Copiar'; btn.classList.remove('is-copied'); }, 1500);
+    });
+
+    document.getElementById('btn-another').addEventListener('click', function () {
+      document.getElementById('search-input').value = '';
+      resultList.innerHTML = '<div class="result-hint">Digite ao menos 3 letras para buscar.</div>';
+      show('search');
+    });
+  })();
+</script>
+</body>
+</html>

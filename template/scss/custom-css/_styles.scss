@@ -176,3 +176,30 @@ header .top-bar{
       translate: -50% 0;
   }
 }
+
+.product__documents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.product__document-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1.5px solid #007eb8;
+  border-radius: 6px;
+  color: #007eb8;
+  font-size: .85rem;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover {
+    background: #007eb8;
+    color: #fff;
+    text-decoration: none;
+  }
+  &::before {
+    content: '⭳';
+  }
+}

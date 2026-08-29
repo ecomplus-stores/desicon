@@ -409,6 +409,24 @@
         </component>
 
         <slot
+          name="documents"
+          v-if="body.metafields && body.metafields.some(m => (m.field === 'fds' || m.field === 'ficha_tecnica') && m.value)"
+        >
+          <div class="product__documents">
+            <a
+              v-for="doc in body.metafields.filter(m => (m.field === 'fds' || m.field === 'ficha_tecnica') && m.value)"
+              :key="doc.field"
+              class="product__document-btn"
+              :href="`/${doc.field === 'fds' ? 'fds' : 'fichastecnicas'}/${body.slug}`"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ doc.field === 'fds' ? 'Baixar FDS' : 'Baixar Ficha Técnica' }}
+            </a>
+          </div>
+        </slot>
+
+        <slot
           v-if="!isSSR && body.short_description"
           name="short-description"
         >
