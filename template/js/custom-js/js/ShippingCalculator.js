@@ -19,6 +19,7 @@ import {
   
   const localStorage = typeof window === 'object' && window.localStorage
   const zipStorageKey = 'shipping-to-zip'
+  const serviceStorageKey = 'shipping-service'
   
   const reduceItemBody = itemOrProduct => {
     const shippedItem = {}
@@ -197,14 +198,17 @@ import {
             this.hasFreeOption = Boolean(this.shippingServices.find(service => {
               return service.shipping_line.total_price === 0 || service.shipping_line.price === 0
             }))
-            if (this.hasFreeOption) {
-              this.setSelectedService(1)
-            } else {
-              this.setSelectedService(0)
-            }
+            const defaultService = this.shippingServices[
+              this.hasFreeOption && this.shippingServices.length > 1 ? 1 : 0
+            ]
             if (Array.isArray(this.shippingAppsSort) && this.shippingAppsSort.length) {
               this.shippingServices = sortApps(this.shippingServices, this.shippingAppsSort)
             }
+            const chosenService = this.findChosenService()
+            this.setSelectedService(
+              chosenService > -1 ? chosenService : this.shippingServices.indexOf(defaultService),
+              false
+            )
           }
         }
       },
@@ -262,10 +266,43 @@ import {
         this.fetchShippingServices()
       },
   
-      setSelectedService (i) {
+      findChosenService () {
+        if (!localStorage) {
+          return -1
+        }
+        let chosenService
+        try {
+          chosenService = JSON.parse(localStorage.getItem(serviceStorageKey))
+        } catch (err) {
+          return -1
+        }
+        if (!chosenService) {
+          return -1
+        }
+        return this.shippingServices.findIndex(service => {
+          return service.app_id === chosenService.app_id &&
+            (service.service_code || chosenService.service_code
+              ? service.service_code === chosenService.service_code
+              : service.label === chosenService.label)
+        })
+      },
+
+      setSelectedService (i, isCustomerChoice = true) {
         if (this.canSelectServices) {
-          this.$emit('select-service', this.shippingServices[i])
+          const service = this.shippingServices[i]
+          this.$emit('select-service', service)
           this.selectedService = i
+          if (isCustomerChoice && service && localStorage) {
+            try {
+              localStorage.setItem(serviceStorageKey, JSON.stringify({
+                app_id: service.app_id,
+                service_code: service.service_code,
+                label: service.label
+              }))
+            } catch (err) {
+              console.error(err)
+            }
+          }
         }
       }
     },
